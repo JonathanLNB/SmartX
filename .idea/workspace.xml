@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a997fcd-18f3-4269-8956-752ad30a3bf1" name="Default Changelist" comment="" />
+    <list default="true" id="6a997fcd-18f3-4269-8956-752ad30a3bf1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +50,21 @@
       <usages-collector id="statistics.php.new.test" />
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
+    <session id="-1355367005">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Server/routes/Middleware/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="391">
               <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
             </state>
           </provider>
@@ -63,13 +73,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Server/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            <state relative-caret-position="282">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -87,79 +100,26 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/Server/node_modules" />
+    <handled-path value="$PROJECT_DIR$/SmartX/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/Server/node_modules/accepts/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/array-flatten/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/basic-auth/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/body-parser/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/bytes/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/content-disposition/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/content-type/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/cookie-parser/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/cookie-signature/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/cookie/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/depd/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/destroy/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/ee-first/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/encodeurl/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/escape-html/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/etag/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/express/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/finalhandler/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/forwarded/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/fresh/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/http-errors/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/iconv-lite/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/ipaddr.js/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/media-typer/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/merge-descriptors/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/methods/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/mime-db/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/mime-types/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/mime/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/morgan/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/negotiator/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/on-finished/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/on-headers/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/parseurl/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/path-to-regexp/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/proxy-addr/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/qs/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/range-parser/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/raw-body/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/safer-buffer/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/send/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/serve-static/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/setprototypeof/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/statuses/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/type-is/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/unpipe/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/utils-merge/package.json" />
-      <path value="$PROJECT_DIR$/Server/node_modules/vary/package.json" />
       <path value="$PROJECT_DIR$/Server/package.json" />
+      <path value="$PROJECT_DIR$/SmartX/package.json" />
     </packageJsonPaths>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="32" />
-    <option name="width" value="1366" />
-    <option name="height" value="736" />
+    <option name="width" value="1280" />
+    <option name="height" value="720" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,25 +130,26 @@
             <path>
               <item name="SmartX" type="b2602c69:ProjectViewProjectNode" />
               <item name="SmartX" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="SmartX" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SmartX" type="b2602c69:ProjectViewProjectNode" />
               <item name="SmartX" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="SmartX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SmartX" type="b2602c69:ProjectViewProjectNode" />
               <item name="SmartX" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="Middleware" type="462c0819:PsiDirectoryNode" />
+              <item name="SmartX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,24 +181,19 @@
       <option name="presentableId" value="Default" />
       <updated>1539912578903</updated>
       <workItem from="1539912580272" duration="1234000" />
+      <workItem from="1540003073565" duration="826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1234000" />
+    <option name="totallyTimeSpent" value="2060000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="32" width="1366" height="736" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="720" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980111" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32838285" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -245,10 +201,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32764506" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,13 +219,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Server/routes/Middleware/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Server/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -272,10 +226,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Server/routes/Middleware/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Server/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="282">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
