@@ -1,197 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a997fcd-18f3-4269-8956-752ad30a3bf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/routes/Categorias/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/routes/Cupones/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/routes/Inventario/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/routes/Marca/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/routes/Productos/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/routes/Proveedor/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/routes/Reportes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/routes/Usuario/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/routes/Ventas/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/routes/Middleware/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/routes/Middleware/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="6a997fcd-18f3-4269-8956-752ad30a3bf1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="false" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="smartx@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="smartx@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="smartx@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="smartx: database" type="162271b6:PgImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="smartx@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="smartx: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="smartx@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="smartx: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="smartx@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="smartx: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="smartx@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="smartx: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="direccion: table" type="69fad909:PgImplModel$LocalTable" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="smartx@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="smartx: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="tipousuario: table" type="69fad909:PgImplModel$LocalTable" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="smartx@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="smartx: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="venta: table" type="69fad909:PgImplModel$LocalTable" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="smartx@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="smartx: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="routines" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-    </expand>
-    <select />
+  <component name="FUSProjectUsageTrigger">
+    <session id="109023016">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="2" />
+          <entry key="json" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="11" />
+          <entry key="json" value="35" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="35" />
+          <entry key="JavaScript" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.composer.command.options" />
+      <usages-collector id="statistics.php.rename.constructor" />
+      <usages-collector id="statistics.php.composer.actions" />
+      <usages-collector id="statistics.php.new.class" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.php.new.test" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Server/routes/Middleware/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Server/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/da631495-f3cc-4799-991c-edb5852692ef/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="275" column="129" selection-start-line="275" selection-end-line="276" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Server/routes/Usuario/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+            <state relative-caret-position="285">
+              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>)::</find>
-      <find>random()*8000+1000</find>
-      <find>random()*8000+4000</find>
-      <find>random()*8000+4000.00</find>
-      <find>(</find>
-      <find>and</find>
-      <find>insertar_cupon</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>::</replace>
-      <replace>random()*8000+4000.00</replace>
-      <replace>Floor(random()*8000)+4000.00</replace>
-      <replace>(1,</replace>
-    </replaceStrings>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Server/package.json" />
-        <option value="$PROJECT_DIR$/Server/routes/Reportes/index.js" />
-        <option value="$PROJECT_DIR$/Server/routes/Marca/index.js" />
         <option value="$PROJECT_DIR$/Server/routes/Middleware/index.js" />
-        <option value="$PROJECT_DIR$/Server/routes/Inventario/index.js" />
-        <option value="$PROJECT_DIR$/Server/routes/Ventas/index.js" />
-        <option value="$PROJECT_DIR$/Server/routes/Productos/index.js" />
-        <option value="$PROJECT_DIR$/Server/routes/Proveedor/index.js" />
-        <option value="$PROJECT_DIR$/Server/routes/Categorias/index.js" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/Server/routes/Cupones/index.js" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/da631495-f3cc-4799-991c-edb5852692ef/console.sql" />
-        <option value="$PROJECT_DIR$/Server/routes/Usuario/index.js" />
+        <option value="$PROJECT_DIR$/Server/package.json" />
         <option value="$PROJECT_DIR$/Server/app.js" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/Server/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/Server/node_modules/accepts/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/array-flatten/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/basic-auth/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/body-parser/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/bytes/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/content-disposition/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/content-type/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/cookie-parser/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/cookie-signature/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/destroy/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/ee-first/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/encodeurl/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/escape-html/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/etag/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/express/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/finalhandler/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/forwarded/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/fresh/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/ipaddr.js/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/media-typer/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/merge-descriptors/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/methods/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/morgan/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/negotiator/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/on-finished/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/on-headers/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/parseurl/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/path-to-regexp/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/proxy-addr/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/range-parser/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/raw-body/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/send/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/serve-static/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/type-is/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/unpipe/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/utils-merge/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/vary/package.json" />
+      <path value="$PROJECT_DIR$/Server/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="PhpServers">
     <servers />
@@ -201,12 +154,12 @@
     <option name="width" value="1366" />
     <option name="height" value="736" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,58 +183,19 @@
               <item name="SmartX" type="462c0819:PsiDirectoryNode" />
               <item name="Server" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="Categorias" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartX" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="Cupones" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartX" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="Productos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartX" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="Proveedor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartX" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="Reportes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartX" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="Usuario" type="462c0819:PsiDirectoryNode" />
+              <item name="Middleware" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../atransikids" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -305,86 +219,52 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539912578903</updated>
-      <workItem from="1539912580272" duration="1833000" />
-      <workItem from="1539987558614" duration="1097000" />
-      <workItem from="1540213853697" duration="2229000" />
-      <workItem from="1541085255237" duration="13280000" />
-      <workItem from="1541291585377" duration="22000" />
-      <workItem from="1541291630858" duration="696000" />
-      <workItem from="1541314011376" duration="603000" />
-      <workItem from="1541425960227" duration="22000" />
-      <workItem from="1541690445242" duration="7768000" />
-      <workItem from="1541906770898" duration="26000" />
-      <workItem from="1541906822460" duration="23000" />
-      <workItem from="1542118445049" duration="2796000" />
-      <workItem from="1542219156447" duration="2022000" />
-      <workItem from="1542234693591" duration="22000" />
-      <workItem from="1542423135687" duration="1377000" />
-      <workItem from="1542601699393" duration="28374000" />
-      <workItem from="1542686148065" duration="160000" />
-      <workItem from="1542686327292" duration="5149000" />
-      <workItem from="1542728996213" duration="15987000" />
-      <workItem from="1542809923579" duration="9075000" />
-      <workItem from="1542844660148" duration="4705000" />
-      <workItem from="1542908082554" duration="3927000" />
+      <workItem from="1539912580272" duration="1234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120669000" />
+    <option name="totallyTimeSpent" value="1234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="32" width="1366" height="736" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834436" visible="true" weight="0.2205438" />
-      <window_info id="Structure" order="1" sideWeight="0.50165564" side_tool="true" weight="0.20223048" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" order="0" weight="0.4940978" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3289256" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32715008" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.20392749" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834436" visible="true" weight="0.21450152" />
-      <window_info id="Structure" order="1" sideWeight="0.50165564" side_tool="true" weight="0.20223048" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" order="0" weight="0.4940978" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3289256" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32715008" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.20392749" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Server/routes/Middleware/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Server/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -392,298 +272,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/tipousuario" />
-    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/usuario_proveedor" />
-    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/inventario" />
-    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/inventariodetalle" />
-    <entry file="uml://DATABASE/da631495-f3cc-4799-991c-edb5852692ef.SCHEMA:smartx.public">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID />
-          <OriginalElement>da631495-f3cc-4799-991c-edb5852692ef.SCHEMA:smartx.public</OriginalElement>
-          <nodes>
-            <node x="374.0" y="196.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.marca</node>
-            <node x="208.0" y="438.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.marca_categoria</node>
-            <node x="154.0" y="207.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.categoria</node>
-            <node x="1033.25" y="207.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.metodopago</node>
-            <node x="633.75" y="426.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.tokens</node>
-            <node x="822.75" y="392.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.direccion</node>
-            <node x="396.25" y="611.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.precioproducto</node>
-            <node x="1224.25" y="184.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.cupon</node>
-            <node x="1039.4166666666667" y="403.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.venta</node>
-            <node x="366.0" y="0.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.proveedor</node>
-            <node x="0.0" y="438.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.inventario</node>
-            <node x="989.9166666666665" y="634.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.ventadetalle</node>
-            <node x="807.25" y="150.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.usuario</node>
-            <node x="417.75" y="392.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.producto</node>
-            <node x="821.25" y="11.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.tipousuario</node>
-            <node x="47.0" y="634.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.inventariodetalle</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.direccion" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.usuario">
-              <point x="0.0" y="-84.5" />
-              <point x="915.25" y="367.0" />
-              <point x="905.25" y="367.0" />
-              <point x="0.0" y="96.0" />
-            </edge>
-            <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.usuario" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.tipousuario">
-              <point x="0.0" y="-96.0" />
-              <point x="0.0" y="38.5" />
-            </edge>
-            <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.ventadetalle" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.producto">
-              <point x="-44.999999999999886" y="-50.0" />
-              <point x="1034.9166666666667" y="586.0" />
-              <point x="581.0833333333333" y="586.0" />
-              <point x="65.33333333333331" y="84.5" />
-            </edge>
-            <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.marca_categoria" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.marca">
-              <point x="46.0" y="-38.0" />
-              <point x="346.0" y="367.0" />
-              <point x="421.25" y="367.0" />
-              <point x="-47.25" y="50.0" />
-            </edge>
-            <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.inventariodetalle" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.producto">
-              <point x="47.0" y="-50.0" />
-              <point x="188.0" y="586.0" />
-              <point x="450.4166666666667" y="586.0" />
-              <point x="-65.33333333333331" y="84.5" />
-            </edge>
-            <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.venta" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.usuario">
-              <point x="-57.0" y="-73.0" />
-              <point x="1067.9166666666667" y="367.0" />
-              <point x="970.5833333333333" y="367.0" />
-              <point x="65.33333333333326" y="96.0" />
-            </edge>
-            <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.ventadetalle" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.venta">
-              <point x="45.000000000000114" y="-50.0" />
-              <point x="0.0" y="73.0" />
-            </edge>
-            <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.precioproducto" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.producto">
-              <point x="0.0" y="-73.0" />
-              <point x="0.0" y="84.5" />
-            </edge>
-            <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.tokens" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.usuario">
-              <point x="0.0" y="-50.0" />
-              <point x="718.25" y="367.0" />
-              <point x="839.9166666666667" y="367.0" />
-              <point x="-65.33333333333326" y="96.0" />
-            </edge>
-            <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.marca_categoria" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.categoria">
-              <point x="-46.0" y="-38.0" />
-              <point x="0.0" y="38.5" />
-            </edge>
-            <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.venta" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.cupon">
-              <point x="57.0" y="-73.0" />
-              <point x="1181.9166666666667" y="367.0" />
-              <point x="1335.75" y="367.0" />
-              <point x="0.0" y="61.5" />
-            </edge>
-            <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.marca" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.proveedor">
-              <point x="0.0" y="-50.0" />
-              <point x="0.0" y="50.0" />
-            </edge>
-            <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.venta" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.metodopago">
-              <point x="0.0" y="-73.0" />
-              <point x="1124.9166666666667" y="367.0" />
-              <point x="1118.75" y="367.0" />
-              <point x="0.0" y="38.5" />
-            </edge>
-            <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.inventariodetalle" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.inventario">
-              <point x="-47.0" y="-50.0" />
-              <point x="0.0" y="38.5" />
-            </edge>
-            <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.producto" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.marca">
-              <point x="0.0" y="-84.5" />
-              <point x="47.25" y="50.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.5326975476839237" x="441.0" y="310.0" />
-          <SelectedNodes>
-            <node>da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.inventariodetalle</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/tokens" />
-    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/direccion" />
-    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/ventadetalle" />
-    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/precioproducto" />
-    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/venta" />
-    <entry file="uml://DATABASE/da631495-f3cc-4799-991c-edb5852692ef">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>da631495-f3cc-4799-991c-edb5852692ef</OriginalElement>
-          <nodes>
-            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.marca</node>
-            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.direccion</node>
-            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.producto</node>
-            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.categoria</node>
-            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.metodopago</node>
-            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.tokens</node>
-            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.proveedor</node>
-            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.precioproducto</node>
-            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.cupon</node>
-            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.ventadetalle</node>
-            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.inventario</node>
-            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.venta</node>
-            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.usuario</node>
-            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.marca_categoria</node>
-            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.tipousuario</node>
-            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.inventariodetalle</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.7208494208494208" x="612.0" y="158.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/proveedor">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/marca">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/categoria">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/marca_categoria">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/routes/Marca/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="144" selection-start-line="8" selection-start-column="128" selection-end-line="8" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/routes/Middleware/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/metodopago">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/producto">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/usuario">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/routes/Reportes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-188">
-          <caret line="338" column="123" selection-start-line="338" selection-start-column="123" selection-end-line="338" selection-end-column="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/routes/Inventario/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="45" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/routes/Ventas/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="64" column="489" selection-start-line="64" selection-start-column="489" selection-end-line="64" selection-end-column="489" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/routes/Cupones/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="65" column="47" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/routes/Productos/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="54" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/cupon">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/routes/Proveedor/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="43" selection-start-line="43" selection-end-line="55" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/routes/Categorias/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/da631495-f3cc-4799-991c-edb5852692ef/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="275" column="129" selection-start-line="275" selection-end-line="276" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/routes/Usuario/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Server/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="27" />
+        <state relative-caret-position="285">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
