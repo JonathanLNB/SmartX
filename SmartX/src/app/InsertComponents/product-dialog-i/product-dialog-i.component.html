@@ -1,0 +1,51 @@
+<h2 align="center">Agregar productos</h2>
+<mat-dialog-content style="height: 100%">
+  <div class="contenedor">
+    <mat-form-field>
+      <input matInput placeholder="Nombre" [(ngModel)]="product.producto" />
+    </mat-form-field>
+    <mat-form-field>
+      <textarea matInput  placeholder="Descripcion" [(ngModel)]="product.descripcion" ></textarea>
+    </mat-form-field>
+    <!-- Seccion para los precios de venta -->
+    <mat-form-field>
+      <input matInput type="number" placeholder="Precio de Venta" [(ngModel)]="product.precioventa">
+    </mat-form-field>
+    <mat-slider class="barra" [max]="60000" [min]="0" [step]="50" [thumbLabel]="false" [(ngModel)]="product.precioventa" >
+    </mat-slider>
+    <!-- precio de compra -->
+    <mat-form-field>
+      <input matInput type="number" placeholder="Precio de compra" [(ngModel)]="product.preciocompra">
+    </mat-form-field>
+    <mat-slider class="barra" [max]="60000" [min]="0" [step]="50" [thumbLabel]="false" [(ngModel)]="product.preciocompra" >
+    </mat-slider>
+  </div>
+  <mat-divider></mat-divider>
+  <img  *ngIf="product.imagen!=''" src="{{product.imagen}}" alt="No se ha podido cargar la imagen" id="imagencompra"><br>
+  <mat-form-field>
+    <input matInput [(ngModel)]="product.imagen" placeholder="Imagen">
+  </mat-form-field>
+  <mat-divider></mat-divider>
+  <div class="contenedor">
+  <mat-form-field>
+    <input matInput [(ngModel)]="product.categoria" placeholder="Categoria">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput [(ngModel)]="product.proveedor" placeholder="Proveedor">
+  </mat-form-field>
+    <mat-form-field>
+      <input matInput [(ngModel)]="product.marca" placeholder="Marca">
+    </mat-form-field>
+  </div>
+  <mat-form-field>
+    <input matInput [(ngModel)]="product.marca" placeholder="Marca">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput [(ngModel)]="product.codigo" placeholder="codigo">
+  </mat-form-field>
+
+</mat-dialog-content>
+<mat-dialog-actions>
+   <span id="botones"><button mat-raised-button color="primary" (click)="send()"><mat-icon>add_shopping_cart</mat-icon>Agregar</button></span>
+</mat-dialog-actions>
+

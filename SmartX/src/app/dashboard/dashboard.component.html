@@ -1,0 +1,97 @@
+<!--nav-->
+<!--The content below is only a placeholder and claced.-->
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span style="text-align: center">Centro de control</span>
+    <span class="example-spacer"></span>
+    <!--Menu administracion    -->
+    <!-- Menu user-->
+    <button mat-button [matMenuTriggerFor]="usermenu"><mat-icon class="example-icon">account_circle</mat-icon></button>
+    <mat-menu #usermenu>
+      <button mat-menu-item>Perfil</button>
+      <button mat-menu-item>Cerrar sesión</button>
+    </mat-menu>
+  </mat-toolbar-row>
+</mat-toolbar>
+<!-- side nav-->
+<mat-sidenav-container >
+  <mat-sidenav mode="side" opened >
+    <button mat-button (click)="delProduct()"><mat-icon>shopping_basket</mat-icon>Productos</button>
+    <mat-divider></mat-divider>
+    <button mat-button (click)="delCategory()"><mat-icon>toc</mat-icon>Categorias</button>
+    <mat-divider></mat-divider>
+    <button mat-button (click)="delProvider()"><mat-icon>local_shipping</mat-icon>Proveedores</button>
+  </mat-sidenav>
+<!--Tarjetas-->
+  <mat-sidenav-content>
+    <div class="grid-container">
+      <mat-grid-list cols="6" rowHeight="480px">
+        <!-- Tarjeta 1-->
+        <mat-grid-tile [colspan]="3" >
+          <mat-card class="dashboard-card">
+            <mat-card-header>
+              <mat-card-title>
+                <h2>Ventas anuales </h2>
+                <button mat-icon-button class="more-button" [matMenuTriggerFor]="menu" aria-label="Toggle menu">
+                  <mat-icon>more_vert</mat-icon>
+                </button>
+                <mat-menu #menu="matMenu" xPosition="before">
+                  <button mat-menu-item>Remove</button>
+                </mat-menu>
+              </mat-card-title>
+            </mat-card-header>
+            <mat-card-content class="dashboard-card-content">
+              <canvas id="VentaA">{{char}}</canvas>
+                <!--<graficas></graficas>-->
+            </mat-card-content>
+          </mat-card>
+        </mat-grid-tile>
+        <!--tarjeta 2 -->
+        <mat-grid-tile [colspan]="3" >
+          <mat-card class="dashboard-card">
+            <mat-card-header>
+              <mat-card-title aria-rowspan="2">
+                <h2>Ventas Mensuales</h2>
+                <button mat-icon-button class="more-button" [matMenuTriggerFor]="menu" aria-label="Toggle menu">
+                  <mat-icon>more_vert</mat-icon>
+                </button>
+                <mat-menu #menu="matMenu" xPosition="before">
+                  <button mat-menu-item>Expand</button>
+                  <button mat-menu-item>Remove</button>
+                </mat-menu>
+              </mat-card-title>
+            </mat-card-header>
+            <mat-card-content class="dashboard-card-content">
+              <div>
+                <graficas></graficas>
+              </div>
+            </mat-card-content>
+          </mat-card>
+        </mat-grid-tile>
+        <!-- Tarjeta 3-->
+        <mat-grid-tile [colspan]="3" >
+          <mat-card class="dashboard-card">
+            <mat-card-header>
+              <mat-card-title>
+                <h2>Ventas semanales</h2>
+                <button mat-icon-button class="more-button" [matMenuTriggerFor]="menu" aria-label="Toggle menu">
+                  <mat-icon>more_vert</mat-icon>
+                </button>
+                <mat-menu #menu="matMenu" xPosition="before">
+                  <button mat-menu-item>Expand</button>
+                  <button mat-menu-item>Remove</button>
+                </mat-menu>
+              </mat-card-title>
+            </mat-card-header>
+            <mat-card-content class="dashboard-card-content">
+              <div>
+                <graficas></graficas>
+              </div>
+            </mat-card-content>
+          </mat-card>
+        </mat-grid-tile>
+      </mat-grid-list>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+

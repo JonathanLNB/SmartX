@@ -1,13 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a997fcd-18f3-4269-8956-752ad30a3bf1" name="Default Changelist" comment="" />
+    <list default="true" id="6a997fcd-18f3-4269-8956-752ad30a3bf1" name="Default Changelist" comment="">
+<<<<<<<<< Temporary merge branch 1
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SmartX/src/app/app.routing.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartX/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/SmartX/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartX/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/SmartX/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartX/src/app/Material.ts" beforeDir="false" afterPath="$PROJECT_DIR$/SmartX/src/app/Material.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartX/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/SmartX/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartX/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/SmartX/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartX/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/SmartX/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartX/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/SmartX/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartX/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SmartX/src/index.html" afterDir="false" />
+=========
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/routes/Categorias/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/routes/Cupones/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/routes/Inventario/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/routes/Marca/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/routes/Productos/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/routes/Proveedor/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/routes/Reportes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/routes/Usuario/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/routes/Ventas/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/routes/Middleware/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/routes/Middleware/index.js" afterDir="false" />
+>>>>>>>>> Temporary merge branch 2
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<<<< Temporary merge branch 1
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/SmartX/src/app/dashboard/dashboard.component.html">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="23">
+                    <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+                    <folding>
+                      <element signature="n#style#0;n#span#0;n#mat-toolbar-row#0;n#mat-toolbar#0;n#!!top" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="109023016">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="2" />
+          <entry key="json" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="11" />
+          <entry key="json" value="35" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="35" />
+          <entry key="JavaScript" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.composer.command.options" />
+      <usages-collector id="statistics.php.rename.constructor" />
+      <usages-collector id="statistics.php.composer.actions" />
+      <usages-collector id="statistics.php.new.class" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.php.new.test" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+    <session id="-1355367005">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.15" value="3" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.38" value="2" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.44" value="3" />
+          <entry key="project.opened" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="3" />
+          <entry key="html" value="1842" />
+          <entry key="ts" value="3235" />
+          <entry key="txt" value="53" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="3" />
+          <entry key="HTML" value="1842" />
+          <entry key="PLAIN_TEXT" value="53" />
+          <entry key="TypeScript" value="3235" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="Angular2LanguageService" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="8" />
+          <entry key="html" value="21" />
+          <entry key="ts" value="29" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="8" />
+          <entry key="HTML" value="21" />
+          <entry key="TypeScript" value="29" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SmartX/src/app/dashboard/dashboard.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="45" column="36" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+=========
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="false" />
@@ -106,168 +265,181 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Server/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="3" lean-forward="true" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
+            <state relative-caret-position="210">
+              <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Recursos/SmartX.sql">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/da631495-f3cc-4799-991c-edb5852692ef/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1380">
-              <caret line="92" column="33" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
+            <state relative-caret-position="121">
+              <caret line="275" column="129" selection-start-line="275" selection-end-line="276" />
+>>>>>>>>> Temporary merge branch 2
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<<<< Temporary merge branch 1
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SmartX/src/app/bajas/bajas.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="83" column="48" lean-forward="true" selection-start-line="83" selection-start-column="48" selection-end-line="83" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SmartX/src/app/bajas/bajas.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#mat-toolbar#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SmartX/src/app/Material.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="107" selection-start-line="13" selection-start-column="107" selection-end-line="13" selection-end-column="107" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SmartX/src/app/dashboard/dashboard.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+=========
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Server/routes/Usuario/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://DATABASE/da631495-f3cc-4799-991c-edb5852692ef.DATABASE:smartx">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>DATABASE</ID>
-              <OriginalElement>da631495-f3cc-4799-991c-edb5852692ef.DATABASE:smartx</OriginalElement>
-              <nodes>
-                <node x="1022.5" y="392.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.direccion</node>
-                <node x="208.0" y="438.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.marca_categoria</node>
-                <node x="374.0" y="196.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.marca</node>
-                <node x="417.75" y="392.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.producto</node>
-                <node x="154.0" y="207.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.categoria</node>
-                <node x="826.0" y="207.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.metodopago</node>
-                <node x="1227.5" y="426.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.tokens</node>
-                <node x="396.25" y="611.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.precioproducto</node>
-                <node x="583.0" y="184.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.cupon</node>
-                <node x="768.9583333333334" y="634.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.ventadetalle</node>
-                <node x="0.0" y="438.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.inventario</node>
-                <node x="818.4583333333334" y="403.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.venta</node>
-                <node x="1036.6875" y="150.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.usuario</node>
-                <node x="366.0" y="0.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.proveedor</node>
-                <node x="1050.6875" y="11.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.tipousuario</node>
-                <node x="47.0" y="634.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.inventariodetalle</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.direccion" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.usuario">
-                  <point x="0.0" y="-84.5" />
-                  <point x="1115.0" y="367.0" />
-                  <point x="1134.6875" y="367.0" />
-                  <point x="0.0" y="96.0" />
-                </edge>
-                <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.usuario" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.tipousuario">
-                  <point x="0.0" y="-96.0" />
-                  <point x="0.0" y="38.5" />
-                </edge>
-                <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.ventadetalle" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.producto">
-                  <point x="-45.0" y="-50.0" />
-                  <point x="813.9583333333334" y="586.0" />
-                  <point x="581.0833333333333" y="586.0" />
-                  <point x="65.33333333333326" y="84.5" />
-                </edge>
-                <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.marca_categoria" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.marca">
-                  <point x="46.0" y="-38.0" />
-                  <point x="346.0" y="367.0" />
-                  <point x="421.25" y="367.0" />
-                  <point x="-47.25" y="50.0" />
-                </edge>
-                <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.inventariodetalle" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.producto">
-                  <point x="47.0" y="-50.0" />
-                  <point x="188.0" y="586.0" />
-                  <point x="450.41666666666663" y="586.0" />
-                  <point x="-65.33333333333337" y="84.5" />
-                </edge>
-                <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.venta" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.usuario">
-                  <point x="57.0" y="-73.0" />
-                  <point x="960.9583333333334" y="367.0" />
-                  <point x="1069.3541666666665" y="367.0" />
-                  <point x="-65.33333333333337" y="96.0" />
-                </edge>
-                <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.ventadetalle" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.venta">
-                  <point x="45.0" y="-50.0" />
-                  <point x="0.0" y="73.0" />
-                </edge>
-                <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.precioproducto" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.producto">
-                  <point x="0.0" y="-73.0" />
-                  <point x="0.0" y="84.5" />
-                </edge>
-                <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.tokens" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.usuario">
-                  <point x="0.0" y="-50.0" />
-                  <point x="1312.0" y="367.0" />
-                  <point x="1200.0208333333333" y="367.0" />
-                  <point x="65.33333333333326" y="96.0" />
-                </edge>
-                <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.marca_categoria" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.categoria">
-                  <point x="-46.0" y="-38.0" />
-                  <point x="0.0" y="38.5" />
-                </edge>
-                <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.venta" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.cupon">
-                  <point x="-57.0" y="-73.0" />
-                  <point x="846.9583333333334" y="367.0" />
-                  <point x="694.5" y="367.0" />
-                  <point x="0.0" y="61.5" />
-                </edge>
-                <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.marca" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.proveedor">
-                  <point x="0.0" y="-50.0" />
-                  <point x="0.0" y="50.0" />
-                </edge>
-                <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.venta" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.metodopago">
-                  <point x="0.0" y="-73.0" />
-                  <point x="903.9583333333334" y="367.0" />
-                  <point x="911.5" y="367.0" />
-                  <point x="0.0" y="38.5" />
-                </edge>
-                <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.inventariodetalle" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.inventario">
-                  <point x="-47.0" y="-50.0" />
-                  <point x="0.0" y="38.5" />
-                </edge>
-                <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.producto" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.marca">
-                  <point x="0.0" y="-84.5" />
-                  <point x="47.25" y="50.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.42213642213642216" x="364.484756097561" y="558.5365853658536" />
-              <SelectedNodes>
-                <node>da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.inventariodetalle</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Key columns</Category>
-                <Category>Columns</Category>
-              </Categories>
+            <state relative-caret-position="405">
+              <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+>>>>>>>>> Temporary merge branch 2
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+<<<<<<<<< Temporary merge branch 1
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+=========
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>)::</find>
+      <find>random()*8000+1000</find>
+      <find>random()*8000+4000</find>
+      <find>random()*8000+4000.00</find>
+      <find>(</find>
+      <find>and</find>
+      <find>insertar_cupon</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>::</replace>
+      <replace>random()*8000+4000.00</replace>
+      <replace>Floor(random()*8000)+4000.00</replace>
+      <replace>(1,</replace>
+    </replaceStrings>
+  </component>
+>>>>>>>>> Temporary merge branch 2
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Server/routes/Middleware/index.js" />
         <option value="$PROJECT_DIR$/Server/package.json" />
-        <option value="$PROJECT_DIR$/Server/app.js" />
+        <option value="$PROJECT_DIR$/Server/routes/Reportes/index.js" />
+        <option value="$PROJECT_DIR$/Server/routes/Marca/index.js" />
+        <option value="$PROJECT_DIR$/Server/routes/Middleware/index.js" />
+        <option value="$PROJECT_DIR$/Server/routes/Inventario/index.js" />
+        <option value="$PROJECT_DIR$/Server/routes/Ventas/index.js" />
+        <option value="$PROJECT_DIR$/Server/routes/Productos/index.js" />
+        <option value="$PROJECT_DIR$/Server/routes/Proveedor/index.js" />
+        <option value="$PROJECT_DIR$/Server/routes/Categorias/index.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/Server/routes/Cupones/index.js" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/da631495-f3cc-4799-991c-edb5852692ef/console.sql" />
-        <option value="$PROJECT_DIR$/Recursos/SmartX.sql" />
+        <option value="$PROJECT_DIR$/Server/routes/Usuario/index.js" />
+        <option value="$PROJECT_DIR$/Server/app.js" />
+        <option value="$PROJECT_DIR$/SmartX/src/styles.css" />
+        <option value="$PROJECT_DIR$/SmartX/src/app/grafica-semana/grafica-semana.component.html" />
+        <option value="$PROJECT_DIR$/SmartX/src/app/grafica-semana/grafica-semana.component.ts" />
+        <option value="$PROJECT_DIR$/SmartX/src/app/graficas/graficas.component.html" />
+        <option value="$PROJECT_DIR$/SmartX/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/SmartX/src/index.html" />
+        <option value="$PROJECT_DIR$/SmartX/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/SmartX/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/SmartX/src/app/app.component.css" />
+        <option value="$PROJECT_DIR$/SmartX/src/app/dashboard/dashboard.component.css" />
+        <option value="$PROJECT_DIR$/SmartX/src/app/store/store.component.ts" />
+        <option value="$PROJECT_DIR$/SmartX/src/app/store/store.component.html" />
+        <option value="$PROJECT_DIR$/SmartX/src/app/graficas/graficas.component.ts" />
+        <option value="$PROJECT_DIR$/SmartX/src/app/app.routing.ts" />
+        <option value="$PROJECT_DIR$/SmartX/src/app/dashboard/dashboard.component.ts" />
+        <option value="$PROJECT_DIR$/SmartX/src/app/Material.ts" />
+        <option value="$PROJECT_DIR$/SmartX/src/app/dashboard/dashboard.component.html" />
+        <option value="$PROJECT_DIR$/SmartX/src/app/bajas/bajas.component.html" />
+        <option value="$PROJECT_DIR$/SmartX/src/app/bajas/bajas.component.ts" />
       </list>
     </option>
   </component>
+<<<<<<<<< Temporary merge branch 1
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/SmartX/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/Server/package.json" />
+      <path value="$PROJECT_DIR$/SmartX/package.json" />
+    </packageJsonPaths>
+  </component>
+=========
+>>>>>>>>> Temporary merge branch 2
   <component name="PhpServers">
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="32" />
-    <option name="width" value="1366" />
-    <option name="height" value="736" />
+    <option name="x" value="1829" />
+    <option name="y" value="50" />
+    <option name="width" value="673" />
+    <option name="height" value="540" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -285,22 +457,22 @@
             <path>
               <item name="SmartX" type="b2602c69:ProjectViewProjectNode" />
               <item name="SmartX" type="462c0819:PsiDirectoryNode" />
-              <item name="Recursos" type="462c0819:PsiDirectoryNode" />
+              <item name="SmartX" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SmartX" type="b2602c69:ProjectViewProjectNode" />
               <item name="SmartX" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="SmartX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SmartX" type="b2602c69:ProjectViewProjectNode" />
               <item name="SmartX" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartX" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<<<< Temporary merge branch 1
               <item name="SmartX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+=========
               <item name="Server" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
               <item name="Categorias" type="462c0819:PsiDirectoryNode" />
@@ -318,10 +490,17 @@
               <item name="Server" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
               <item name="Productos" type="462c0819:PsiDirectoryNode" />
+>>>>>>>>> Temporary merge branch 2
             </path>
             <path>
               <item name="SmartX" type="b2602c69:ProjectViewProjectNode" />
               <item name="SmartX" type="462c0819:PsiDirectoryNode" />
+<<<<<<<<< Temporary merge branch 1
+              <item name="SmartX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+=========
               <item name="Server" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
               <item name="Proveedor" type="462c0819:PsiDirectoryNode" />
@@ -339,6 +518,7 @@
               <item name="Server" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
               <item name="Usuario" type="462c0819:PsiDirectoryNode" />
+>>>>>>>>> Temporary merge branch 2
             </path>
           </expand>
           <select />
@@ -348,11 +528,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Recursos/smartx.png" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../atransikids" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+<<<<<<<<< Temporary merge branch 1
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/SmartX/node_modules/typescript/lib" />
+=========
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+>>>>>>>>> Temporary merge branch 2
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -376,33 +562,99 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539912578903</updated>
+<<<<<<<<< Temporary merge branch 1
       <workItem from="1539912580272" duration="1234000" />
+      <workItem from="1540003073565" duration="1392000" />
+      <workItem from="1540231061237" duration="149000" />
+      <workItem from="1540338927723" duration="7685000" />
+      <workItem from="1540350216515" duration="132000" />
+      <workItem from="1540383683502" duration="265000" />
+      <workItem from="1540408042861" duration="4778000" />
+      <workItem from="1540469145966" duration="1372000" />
+      <workItem from="1540510738440" duration="7715000" />
+      <workItem from="1540564681275" duration="654000" />
+      <workItem from="1540756161668" duration="1199000" />
+      <workItem from="1540822128661" duration="2457000" />
+      <workItem from="1540827727168" duration="10000" />
+      <workItem from="1540923048241" duration="4150000" />
+      <workItem from="1541091650657" duration="3611000" />
+      <workItem from="1541436324403" duration="5139000" />
+      <workItem from="1541533839359" duration="3054000" />
+      <workItem from="1541696926905" duration="1644000" />
+      <workItem from="1541889547845" duration="1199000" />
+      <workItem from="1541962105034" duration="19687000" />
     </task>
-    <task id="LOCAL-00001" summary="Procedimientos almacenados">
-      <created>1542915595437</created>
+    <task id="LOCAL-00001" summary="instalacion angular">
+      <created>1540004160335</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1542915595437</updated>
+      <updated>1540004160335</updated>
     </task>
-    <task id="LOCAL-00002" summary="Procedimientos almacenados">
-      <created>1542915649070</created>
+    <task id="LOCAL-00002" summary="instalacion angular">
+      <created>1540004263631</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1542915649070</updated>
+      <updated>1540004263631</updated>
+=========
+      <workItem from="1539912580272" duration="1833000" />
+      <workItem from="1539987558614" duration="1097000" />
+      <workItem from="1540213853697" duration="2229000" />
+      <workItem from="1541085255237" duration="13280000" />
+      <workItem from="1541291585377" duration="22000" />
+      <workItem from="1541291630858" duration="696000" />
+      <workItem from="1541314011376" duration="603000" />
+      <workItem from="1541425960227" duration="22000" />
+      <workItem from="1541690445242" duration="7768000" />
+      <workItem from="1541906770898" duration="26000" />
+      <workItem from="1541906822460" duration="23000" />
+      <workItem from="1542118445049" duration="2796000" />
+      <workItem from="1542219156447" duration="2022000" />
+      <workItem from="1542234693591" duration="22000" />
+      <workItem from="1542423135687" duration="1377000" />
+      <workItem from="1542601699393" duration="28374000" />
+      <workItem from="1542686148065" duration="160000" />
+      <workItem from="1542686327292" duration="5149000" />
+      <workItem from="1542728996213" duration="15987000" />
+      <workItem from="1542809923579" duration="9075000" />
+      <workItem from="1542844660148" duration="4705000" />
+      <workItem from="1542908082554" duration="3927000" />
+>>>>>>>>> Temporary merge branch 2
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="dashboard y menus">
+      <created>1540350289877</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1540350289877</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1730000" />
+<<<<<<<<< Temporary merge branch 1
+    <option name="totallyTimeSpent" value="67526000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+=========
+    <option name="totallyTimeSpent" value="120669000" />
+>>>>>>>>> Temporary merge branch 2
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="32" width="1366" height="736" extended-state="6" />
+    <frame x="1280" y="0" width="1366" height="718" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2205438" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+<<<<<<<<< Temporary merge branch 1
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8045685" weight="0.21593447" />
+      <window_info id="Structure" order="1" sideWeight="0.19543147" side_tool="true" weight="0.18615042" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -410,16 +662,60 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49924472" visible="true" weight="0.32715008" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007553" side_tool="true" weight="0.32715008" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29452056" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="12" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.20392749" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8045685" visible="true" weight="0.21593447" />
+      <window_info id="Structure" order="1" sideWeight="0.19543147" side_tool="true" weight="0.18615042" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29452056" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="12" weight="0.32876712" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+=========
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834436" visible="true" weight="0.2205438" />
+      <window_info id="Structure" order="1" sideWeight="0.50165564" side_tool="true" weight="0.20223048" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.4940978" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3289256" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32715008" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.20392749" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834436" visible="true" weight="0.21450152" />
@@ -442,23 +738,24 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" visible="true" weight="0.20392749" />
+>>>>>>>>> Temporary merge branch 2
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Procedimientos almacenados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Procedimientos almacenados" />
+<<<<<<<<< Temporary merge branch 1
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="instalacion angular" />
+    <MESSAGE value="dashboard y menus" />
+    <option name="LAST_COMMIT_MESSAGE" value="dashboard y menus" />
+  </component>
+=========
+>>>>>>>>> Temporary merge branch 2
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Server/routes/Middleware/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Server/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -466,38 +763,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Recursos/smartx.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="uml://DATABASE/da631495-f3cc-4799-991c-edb5852692ef.DATABASE:smartx">
+<<<<<<<<< Temporary merge branch 1
+    <entry file="file://$PROJECT_DIR$/Server/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+=========
+    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/tipousuario" />
+    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/usuario_proveedor" />
+    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/inventario" />
+    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/inventariodetalle" />
+    <entry file="uml://DATABASE/da631495-f3cc-4799-991c-edb5852692ef.SCHEMA:smartx.public">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>da631495-f3cc-4799-991c-edb5852692ef.DATABASE:smartx</OriginalElement>
+          <ID />
+          <OriginalElement>da631495-f3cc-4799-991c-edb5852692ef.SCHEMA:smartx.public</OriginalElement>
           <nodes>
-            <node x="1022.5" y="392.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.direccion</node>
-            <node x="208.0" y="438.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.marca_categoria</node>
             <node x="374.0" y="196.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.marca</node>
-            <node x="417.75" y="392.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.producto</node>
+            <node x="208.0" y="438.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.marca_categoria</node>
             <node x="154.0" y="207.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.categoria</node>
-            <node x="826.0" y="207.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.metodopago</node>
-            <node x="1227.5" y="426.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.tokens</node>
+            <node x="1033.25" y="207.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.metodopago</node>
+            <node x="633.75" y="426.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.tokens</node>
+            <node x="822.75" y="392.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.direccion</node>
             <node x="396.25" y="611.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.precioproducto</node>
-            <node x="583.0" y="184.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.cupon</node>
-            <node x="768.9583333333334" y="634.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.ventadetalle</node>
-            <node x="0.0" y="438.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.inventario</node>
-            <node x="818.4583333333334" y="403.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.venta</node>
-            <node x="1036.6875" y="150.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.usuario</node>
+            <node x="1224.25" y="184.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.cupon</node>
+            <node x="1039.4166666666667" y="403.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.venta</node>
             <node x="366.0" y="0.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.proveedor</node>
-            <node x="1050.6875" y="11.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.tipousuario</node>
+            <node x="0.0" y="438.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.inventario</node>
+            <node x="989.9166666666665" y="634.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.ventadetalle</node>
+            <node x="807.25" y="150.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.usuario</node>
+            <node x="417.75" y="392.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.producto</node>
+            <node x="821.25" y="11.5">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.tipousuario</node>
             <node x="47.0" y="634.0">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.inventariodetalle</node>
           </nodes>
           <notes />
           <edges>
             <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.direccion" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.usuario">
               <point x="0.0" y="-84.5" />
-              <point x="1115.0" y="367.0" />
-              <point x="1134.6875" y="367.0" />
+              <point x="915.25" y="367.0" />
+              <point x="905.25" y="367.0" />
               <point x="0.0" y="96.0" />
             </edge>
             <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.usuario" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.tipousuario">
@@ -505,10 +809,10 @@
               <point x="0.0" y="38.5" />
             </edge>
             <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.ventadetalle" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.producto">
-              <point x="-45.0" y="-50.0" />
-              <point x="813.9583333333334" y="586.0" />
+              <point x="-44.999999999999886" y="-50.0" />
+              <point x="1034.9166666666667" y="586.0" />
               <point x="581.0833333333333" y="586.0" />
-              <point x="65.33333333333326" y="84.5" />
+              <point x="65.33333333333331" y="84.5" />
             </edge>
             <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.marca_categoria" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.marca">
               <point x="46.0" y="-38.0" />
@@ -519,17 +823,17 @@
             <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.inventariodetalle" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.producto">
               <point x="47.0" y="-50.0" />
               <point x="188.0" y="586.0" />
-              <point x="450.41666666666663" y="586.0" />
-              <point x="-65.33333333333337" y="84.5" />
+              <point x="450.4166666666667" y="586.0" />
+              <point x="-65.33333333333331" y="84.5" />
             </edge>
             <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.venta" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.usuario">
-              <point x="57.0" y="-73.0" />
-              <point x="960.9583333333334" y="367.0" />
-              <point x="1069.3541666666665" y="367.0" />
-              <point x="-65.33333333333337" y="96.0" />
+              <point x="-57.0" y="-73.0" />
+              <point x="1067.9166666666667" y="367.0" />
+              <point x="970.5833333333333" y="367.0" />
+              <point x="65.33333333333326" y="96.0" />
             </edge>
             <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.ventadetalle" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.venta">
-              <point x="45.0" y="-50.0" />
+              <point x="45.000000000000114" y="-50.0" />
               <point x="0.0" y="73.0" />
             </edge>
             <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.precioproducto" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.producto">
@@ -538,18 +842,18 @@
             </edge>
             <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.tokens" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.usuario">
               <point x="0.0" y="-50.0" />
-              <point x="1312.0" y="367.0" />
-              <point x="1200.0208333333333" y="367.0" />
-              <point x="65.33333333333326" y="96.0" />
+              <point x="718.25" y="367.0" />
+              <point x="839.9166666666667" y="367.0" />
+              <point x="-65.33333333333326" y="96.0" />
             </edge>
             <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.marca_categoria" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.categoria">
               <point x="-46.0" y="-38.0" />
               <point x="0.0" y="38.5" />
             </edge>
             <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.venta" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.cupon">
-              <point x="-57.0" y="-73.0" />
-              <point x="846.9583333333334" y="367.0" />
-              <point x="694.5" y="367.0" />
+              <point x="57.0" y="-73.0" />
+              <point x="1181.9166666666667" y="367.0" />
+              <point x="1335.75" y="367.0" />
               <point x="0.0" y="61.5" />
             </edge>
             <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.marca" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.proveedor">
@@ -558,8 +862,8 @@
             </edge>
             <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.venta" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.metodopago">
               <point x="0.0" y="-73.0" />
-              <point x="903.9583333333334" y="367.0" />
-              <point x="911.5" y="367.0" />
+              <point x="1124.9166666666667" y="367.0" />
+              <point x="1118.75" y="367.0" />
               <point x="0.0" y="38.5" />
             </edge>
             <edge source="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.inventariodetalle" target="da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.inventario">
@@ -571,35 +875,347 @@
               <point x="47.25" y="50.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.42213642213642216" x="364.484756097561" y="558.5365853658536" />
+          <settings layout="Hierarchic Group" zoom="0.5326975476839237" x="441.0" y="310.0" />
           <SelectedNodes>
             <node>da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.inventariodetalle</node>
           </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/tokens" />
+    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/direccion" />
+    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/ventadetalle" />
+    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/precioproducto" />
+    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/venta" />
+    <entry file="uml://DATABASE/da631495-f3cc-4799-991c-edb5852692ef">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>da631495-f3cc-4799-991c-edb5852692ef</OriginalElement>
+          <nodes>
+            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.marca</node>
+            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.direccion</node>
+            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.producto</node>
+            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.categoria</node>
+            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.metodopago</node>
+            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.tokens</node>
+            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.proveedor</node>
+            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.precioproducto</node>
+            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.cupon</node>
+            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.ventadetalle</node>
+            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.inventario</node>
+            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.venta</node>
+            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.usuario</node>
+            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.marca_categoria</node>
+            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.tipousuario</node>
+            <node x="" y="">da631495-f3cc-4799-991c-edb5852692ef.TABLE:smartx.public.inventariodetalle</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7208494208494208" x="612.0" y="158.0" />
+          <SelectedNodes />
           <Categories>
             <Category>Key columns</Category>
             <Category>Columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Recursos/SmartX.sql">
+    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/proveedor">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/marca">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/categoria">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/marca_categoria">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/routes/Marca/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="92" column="33" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
+        <state relative-caret-position="120">
+          <caret line="8" column="144" selection-start-line="8" selection-start-column="128" selection-end-line="8" selection-end-column="144" />
+>>>>>>>>> Temporary merge branch 2
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/routes/Middleware/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<<<< Temporary merge branch 1
+        <state relative-caret-position="322">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartX/src/app/grafica-semana/grafica-semana.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+=========
+        <state relative-caret-position="195">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/metodopago">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/producto">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/usuario">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/routes/Reportes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-188">
+          <caret line="338" column="123" selection-start-line="338" selection-start-column="123" selection-end-line="338" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/routes/Inventario/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="45" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/routes/Ventas/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="64" column="489" selection-start-line="64" selection-start-column="489" selection-end-line="64" selection-end-column="489" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/routes/Cupones/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="65" column="47" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/routes/Productos/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="54" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://da631495-f3cc-4799-991c-edb5852692ef/database/smartx/schema/public/table/cupon">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/routes/Proveedor/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="43" selection-start-line="43" selection-end-line="55" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/routes/Categorias/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/da631495-f3cc-4799-991c-edb5852692ef/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="211" />
+        <state relative-caret-position="121">
+          <caret line="275" column="129" selection-start-line="275" selection-end-line="276" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/app.js">
+    <entry file="file://$PROJECT_DIR$/Server/routes/Usuario/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="3" lean-forward="true" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
+        <state relative-caret-position="405">
+          <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+>>>>>>>>> Temporary merge branch 2
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartX/src/app/graficas/graficas.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartX/src/app/grafica-semana/grafica-semana.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartX/src/app/grafica-semana/grafica-semana.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartX/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartX/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartX/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartX/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartX/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartX/src/app/store/store.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartX/src/app/graficas/graficas.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="21" selection-start-line="21" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartX/src/app/store/store.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartX/src/app/graficas/graficas.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartX/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartX/src/app/app.routing.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#118#185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartX/src/app/dashboard/dashboard.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartX/src/app/Material.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="107" selection-start-line="13" selection-start-column="107" selection-end-line="13" selection-end-column="107" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartX/src/app/dashboard/dashboard.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#mat-toolbar-row#0;n#mat-toolbar#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartX/src/app/dashboard/dashboard.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartX/src/app/bajas/bajas.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#mat-toolbar#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartX/src/app/bajas/bajas.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<<<< Temporary merge branch 1
+        <state relative-caret-position="115">
+          <caret line="83" column="48" lean-forward="true" selection-start-line="83" selection-start-column="48" selection-end-line="83" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+=========
+        <state relative-caret-position="210">
+          <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="27" />
+>>>>>>>>> Temporary merge branch 2
         </state>
       </provider>
     </entry>

@@ -11,25 +11,30 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { MatGridListModule, MatCardModule, MatMenuModule, MatIconModule, MatButtonModule } from '@angular/material';
 import { LayoutModule } from '@angular/cdk/layout';
 import { GraficasComponent } from './graficas/graficas.component';
-import { GraficaSemanaComponent } from './grafica-semana/grafica-semana.component';
-import { GraficaMesComponent } from './grafica-mes/grafica-mes.component';
-import { GraficaAnioComponent } from './grafica-anio/grafica-anio.component';
+import {FormsModule} from "@angular/forms";
+
 
 //rutas
 import {routing,appRoutingProviders} from "./app.routing";
-import { StoreComponent } from './store/store.component';
 import { BajasComponent } from './bajas/bajas.component';
+import { UpdateDialogComponent } from './update-dialog/update-dialog.component';
+import { UpdateProductComponent } from './update-product/update-product.component';
+import { UpdateCategoryComponent } from './update-category/update-category.component';
+import { UpdateProviderDComponent } from './update-provider-d/update-provider-d.component';
+import { ProductDialogIComponent } from './InsertComponents/product-dialog-i/product-dialog-i.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     GraficasComponent,
-    GraficaSemanaComponent,
-    GraficaMesComponent,
-    GraficaAnioComponent,
-    StoreComponent,
-    BajasComponent
+    BajasComponent,
+    UpdateDialogComponent,
+    UpdateProductComponent,
+    UpdateCategoryComponent,
+    UpdateProviderDComponent,
+    ProductDialogIComponent
   ],
   imports: [
     BrowserModule,
@@ -42,7 +47,15 @@ import { BajasComponent } from './bajas/bajas.component';
     MatButtonModule,
     LayoutModule,
     ChartsModule,
-    routing
+    routing,
+    FormsModule
+  ],
+  entryComponents:[
+    UpdateDialogComponent,
+    UpdateProductComponent,
+    UpdateCategoryComponent,
+    UpdateProviderDComponent,
+    ProductDialogIComponent
   ],
   providers: [
     appRoutingProviders
