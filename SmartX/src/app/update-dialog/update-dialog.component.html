@@ -1,0 +1,18 @@
+<div>
+  <h2 mat-dialog-title>Actualizar</h2>
+  <mat-dialog-content>
+    <p>id:{{id}} </p>
+    <mat-form-field>
+     <input matInput placeholder="Nombre" [(ngModel)]="name" value={{name}}>
+    </mat-form-field><br>
+    <p>Clave:{{clave}}</p>
+    <mat-form-field *ngIf="producto">
+      <input matInput placeholder="Precio" [ngModel]="price" value={{price}}>
+    </mat-form-field>
+  </mat-dialog-content>
+  <mat-divider></mat-divider>
+  <mat-dialog-actions>
+    <button mat-dialog-close>Actualizar</button>
+    <button mat-dialog-close>Borrar</button>
+  </mat-dialog-actions>
+</div>

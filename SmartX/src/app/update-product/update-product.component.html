@@ -1,0 +1,26 @@
+ <h2 align="center">Productos</h2>
+  <mat-dialog-content style="height: 100%">
+        <div class="contenedor">
+          <mat-form-field>
+          <input matInput placeholder="Nombre" [(ngModel)]="product.producto" />
+        </mat-form-field>
+        <mat-form-field>
+          <textarea matInput  placeholder="Descripcion" [(ngModel)]="product.descripcion" ></textarea>
+        </mat-form-field>
+        <!-- Seccion para los precios de venta -->
+              <mat-form-field>
+                <input matInput type="number" placeholder="Precio de Venta" [(ngModel)]="product.precioventa">
+              </mat-form-field>
+              <mat-slider class="barra" [max]="60000" [min]="0" [step]="50" [thumbLabel]="false" [(ngModel)]="product.precioventa" >
+              </mat-slider>
+        </div>
+        <img src="{{product.imagen}}" alt="No se ha podido cargar la imagen" id="imagencompra"><br>
+        <mat-form-field>
+          <input matInput [(ngModel)]="product.imagen" placeholder="Imagen">
+        </mat-form-field>
+        <span id="dGenerales"><strong>categoria:</strong>{{product.categoria}}  <strong>Proveedor:</strong>{{product.proveedor}}</span>
+  </mat-dialog-content>
+ <mat-dialog-actions>
+   <span id="botones"><button mat-raised-button color="primary"><mat-icon>refresh</mat-icon>Actualizar</button><button mat-raised-button color="warn"><mat-icon>delete_forever
+</mat-icon>Eliminar</button></span>
+ </mat-dialog-actions>

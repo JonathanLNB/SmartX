@@ -1,0 +1,21 @@
+#dGenerales{
+  display: block;
+  vertical-align: middle;
+}
+#botones{
+  display: block;
+  vertical-align: middle;
+}
+#imagencompra{
+  width: 100px;
+}
+.mat-slider-vertical {
+  height: 300px;
+}
+.contenedor{
+  display: flex;
+  flex-direction: column;
+}
+.barra{
+  width: 300px;
+}
