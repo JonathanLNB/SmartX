@@ -39,6 +39,7 @@ const Producto:Productos[]=[
   {idproducto:1,producto:'MI9',imagen:'',descripcion:'Telefono bonito y barato'
     ,precioventa:7064,preciocompra:4156,marca:"MI",categoria:"Gama Alta",proveedor:"Xiaomi",codigo:'MI8'},
   {idproducto:1,producto:'MI10',imagen:'',descripcion:'Telefono bonito y barato'
+    ,precioventa:7064,preciocompra:4156,marca:"MI",categoria:"Gama Alta",proveedor:"Xiaomi",codigo:'MI8'},{idproducto:1,producto:'MI10',imagen:'',descripcion:'Telefono bonito y barato'
     ,precioventa:7064,preciocompra:4156,marca:"MI",categoria:"Gama Alta",proveedor:"Xiaomi",codigo:'MI8'},
 
 ];
