@@ -1,45 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a997fcd-18f3-4269-8956-752ad30a3bf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/InsertComponents/product-dialog-i/product-dialog-i.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/InsertComponents/product-dialog-i/product-dialog-i.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/InsertComponents/product-dialog-i/product-dialog-i.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/InsertComponents/product-dialog-i/product-dialog-i.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/bajas/bajas.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/bajas/bajas.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/bajas/bajas.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/bajas/bajas.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/dashboard/dashboard.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/dashboard/dashboard.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/dashboard/dashboard.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/dashboard/dashboard.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/graficas/graficas.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/graficas/graficas.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/graficas/graficas.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/graficas/graficas.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/update-category/update-category.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/update-category/update-category.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/update-category/update-category.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/update-category/update-category.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/update-dialog/update-dialog.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/update-dialog/update-dialog.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/update-dialog/update-dialog.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/update-dialog/update-dialog.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/update-product/update-product.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/update-product/update-product.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/update-product/update-product.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/update-product/update-product.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/update-provider-d/update-provider-d.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/update-provider-d/update-provider-d.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/update-provider-d/update-provider-d.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SmartX/src/app/update-provider-d/update-provider-d.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SmartX/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/SmartX/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SmartX/src/app/Material.ts" beforeDir="false" afterPath="$PROJECT_DIR$/SmartX/src/app/Material.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SmartX/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/SmartX/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SmartX/src/app/app.routing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/SmartX/src/app/app.routing.ts" afterDir="false" />
-    </list>
+    <list default="true" id="6a997fcd-18f3-4269-8956-752ad30a3bf1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,145 +48,28 @@
       <usages-collector id="statistics.php.new.test" />
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
-    <session id="-1355367005">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="30" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.15" value="4" />
-          <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.29" value="2" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.31" value="2" />
-          <entry key="project.open.time.32" value="2" />
-          <entry key="project.open.time.36" value="1" />
-          <entry key="project.open.time.38" value="2" />
-          <entry key="project.open.time.39" value="2" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.42" value="1" />
-          <entry key="project.open.time.44" value="3" />
-          <entry key="project.open.time.48" value="1" />
-          <entry key="project.opened" value="32" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="css" value="234" />
-          <entry key="html" value="4653" />
-          <entry key="ts" value="5543" />
-          <entry key="txt" value="61" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="234" />
-          <entry key="HTML" value="4653" />
-          <entry key="PLAIN_TEXT" value="61" />
-          <entry key="TypeScript" value="5543" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts">
-        <counts>
-          <entry key="Angular2LanguageService" value="27" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="css" value="17" />
-          <entry key="html" value="41" />
-          <entry key="ts" value="58" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="17" />
-          <entry key="HTML" value="41" />
-          <entry key="TypeScript" value="57" />
-          <entry key="UML" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SmartX/src/app/update-product/update-product.component.html">
+        <entry file="file://$PROJECT_DIR$/Server/routes/Middleware/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="26" lean-forward="true" selection-start-column="1" selection-end-line="26" />
-              <folding>
-                <element signature="n#style#0;n#mat-dialog-content#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SmartX/src/app/InsertComponents/product-dialog-i/product-dialog-i.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-                <element signature="n#!!block;n#Productos#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SmartX/src/app/update-product/update-product.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="64" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SmartX/src/app/bajas/bajas.component.ts">
+        <entry file="file://$PROJECT_DIR$/Server/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" selection-start-line="1" selection-end-line="2" />
-              <folding>
-                <element signature="n#!!block;n#Productos#0" />
-                <element signature="n#!!block;n#Catergoria#0" />
-                <element signature="n#!!block;n#Proveedor#0" />
-                <element signature="n#!!block;n#DataDialog#0" />
-                <element signature="e#1596#1723#0" />
-                <element signature="e#1755#1958#0" />
-                <element signature="e#1973#2077#0" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="TypeScript File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>product</find>
-      <find>data</find>
-    </findStrings>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -232,36 +77,6 @@
         <option value="$PROJECT_DIR$/Server/routes/Middleware/index.js" />
         <option value="$PROJECT_DIR$/Server/package.json" />
         <option value="$PROJECT_DIR$/Server/app.js" />
-        <option value="$PROJECT_DIR$/SmartX/src/styles.css" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/grafica-semana/grafica-semana.component.html" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/grafica-semana/grafica-semana.component.ts" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/graficas/graficas.component.html" />
-        <option value="$PROJECT_DIR$/SmartX/src/index.html" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/app.component.css" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/store/store.component.ts" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/store/store.component.html" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/graficas/graficas.component.ts" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/dashboard/dashboard.component.ts" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/dashboard/dashboard.component.html" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/update-dialog/update-dialog.component.ts" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/app.routing.ts" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/update-dialog/update-dialog.component.html" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/Material.ts" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/update-product/update-product.component.ts" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/update-product/update-product.component.css" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/update-product/update-product.component.html" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/update-category/update-category.component.css" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/update-category/update-category.component.html" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/dashboard/dashboard.component.css" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/bajas/bajas.component.css" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/bajas/bajas.component.html" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/bajas/bajas.component.ts" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/InsertComponents/product-dialog-i/product-dialog-i.component.ts" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/InsertComponents/product-dialog-i/product-dialog-i.component.css" />
-        <option value="$PROJECT_DIR$/SmartX/src/app/InsertComponents/product-dialog-i/product-dialog-i.component.html" />
       </list>
     </option>
   </component>
@@ -272,23 +87,72 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/SmartX/node_modules" />
+    <handled-path value="$PROJECT_DIR$/Server/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/Server/node_modules/accepts/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/array-flatten/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/basic-auth/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/body-parser/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/bytes/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/content-disposition/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/content-type/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/cookie-parser/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/cookie-signature/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/destroy/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/ee-first/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/encodeurl/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/escape-html/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/etag/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/express/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/finalhandler/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/forwarded/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/fresh/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/ipaddr.js/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/media-typer/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/merge-descriptors/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/methods/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/morgan/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/negotiator/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/on-finished/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/on-headers/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/parseurl/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/path-to-regexp/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/proxy-addr/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/range-parser/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/raw-body/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/send/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/serve-static/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/type-is/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/unpipe/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/utils-merge/package.json" />
+      <path value="$PROJECT_DIR$/Server/node_modules/vary/package.json" />
       <path value="$PROJECT_DIR$/Server/package.json" />
-      <path value="$PROJECT_DIR$/SmartX/package.json" />
     </packageJsonPaths>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="32" />
     <option name="width" value="1366" />
-    <option name="height" value="718" />
-  </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
+    <option name="height" value="736" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -306,37 +170,20 @@
             <path>
               <item name="SmartX" type="b2602c69:ProjectViewProjectNode" />
               <item name="SmartX" type="462c0819:PsiDirectoryNode" />
-              <item name="SmartX" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SmartX" type="b2602c69:ProjectViewProjectNode" />
               <item name="SmartX" type="462c0819:PsiDirectoryNode" />
-              <item name="SmartX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SmartX" type="b2602c69:ProjectViewProjectNode" />
               <item name="SmartX" type="462c0819:PsiDirectoryNode" />
-              <item name="SmartX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartX" type="462c0819:PsiDirectoryNode" />
-              <item name="SmartX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="InsertComponents" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartX" type="462c0819:PsiDirectoryNode" />
-              <item name="SmartX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="InsertComponents" type="462c0819:PsiDirectoryNode" />
-              <item name="product-dialog-i" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="Middleware" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -346,10 +193,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="/var/www/html/kardex" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/SmartX/node_modules/typescript/lib" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -374,128 +220,36 @@
       <option name="presentableId" value="Default" />
       <updated>1539912578903</updated>
       <workItem from="1539912580272" duration="1234000" />
-      <workItem from="1540003073565" duration="1392000" />
-      <workItem from="1540231061237" duration="149000" />
-      <workItem from="1540338927723" duration="7685000" />
-      <workItem from="1540350216515" duration="132000" />
-      <workItem from="1540383683502" duration="265000" />
-      <workItem from="1540408042861" duration="4778000" />
-      <workItem from="1540469145966" duration="1372000" />
-      <workItem from="1540510738440" duration="7715000" />
-      <workItem from="1540564681275" duration="654000" />
-      <workItem from="1540756161668" duration="1199000" />
-      <workItem from="1540822128661" duration="2457000" />
-      <workItem from="1540827727168" duration="10000" />
-      <workItem from="1540923048241" duration="4150000" />
-      <workItem from="1541091650657" duration="3611000" />
-      <workItem from="1541436324403" duration="5139000" />
-      <workItem from="1541533839359" duration="3054000" />
-      <workItem from="1541696926905" duration="1644000" />
-      <workItem from="1541889547845" duration="1199000" />
-      <workItem from="1541962105034" duration="19806000" />
-      <workItem from="1542031176845" duration="4542000" />
-      <workItem from="1542117751734" duration="2044000" />
-      <workItem from="1542201112716" duration="5720000" />
-      <workItem from="1542221580795" duration="790000" />
-      <workItem from="1542233105733" duration="128000" />
-      <workItem from="1542382500510" duration="1094000" />
-      <workItem from="1542497951486" duration="22464000" />
-      <workItem from="1542723095249" duration="2117000" />
-      <workItem from="1542734535120" duration="3582000" />
-      <workItem from="1542760180314" duration="1792000" />
-      <workItem from="1542848360294" duration="10940000" />
-      <workItem from="1542892043615" duration="5559000" />
-      <workItem from="1542906552251" duration="5676000" />
     </task>
-    <task id="LOCAL-00001" summary="instalacion angular">
-      <created>1540004160335</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1540004160335</updated>
-    </task>
-    <task id="LOCAL-00002" summary="instalacion angular">
-      <created>1540004263631</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1540004263631</updated>
-    </task>
-    <task id="LOCAL-00003" summary="dashboard y menus">
-      <created>1540350289877</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1540350289877</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Menus">
-      <created>1541990798700</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1541990798700</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134093000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="1234000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="718" extended-state="6" />
+    <frame x="0" y="32" width="1366" height="736" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8045685" visible="true" weight="0.28816083" />
-      <window_info id="Structure" order="1" sideWeight="0.19543147" side_tool="true" weight="0.18615042" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29109588" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="TypeScript" order="12" weight="0.32876712" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8045685" visible="true" weight="0.28816083" />
-      <window_info id="Structure" order="1" sideWeight="0.19543147" side_tool="true" weight="0.18615042" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.29109588" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="TypeScript" order="12" weight="0.32876712" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -503,13 +257,14 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="instalacion angular" />
-    <MESSAGE value="dashboard y menus" />
-    <MESSAGE value="Menus" />
-    <option name="LAST_COMMIT_MESSAGE" value="Menus" />
-  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Server/routes/Middleware/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Server/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -519,257 +274,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Server/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/routes/Middleware/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/grafica-semana/grafica-semana.component.ts" />
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/grafica-semana/grafica-semana.component.html" />
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/grafica-semana/grafica-semana.component.spec.ts" />
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/store/store.component.html" />
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/store/store.component.ts" />
-    <entry file="uml://JavaScript-modules-diagram//home/alan/WebstormProjects/SmartX/SmartX/src/app/dashboard/dashboard.component.spec.ts">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/SmartX/src/app/dashboard/dashboard.component.spec.ts</OriginalElement>
-          <nodes>
-            <node x="" y="">$PROJECT_DIR$/SmartX/node_modules/@angular/core/testing/src/async.d.ts#async#203;</node>
-            <node x="" y="">$PROJECT_DIR$/SmartX/node_modules/@angular/material/button/typings/button-module.d.ts#MatButtonModule#0;</node>
-            <node x="" y="">$PROJECT_DIR$/SmartX/node_modules/@angular/material/card/typings/card-module.d.ts#MatCardModule#0;</node>
-            <node x="" y="">$PROJECT_DIR$/SmartX/node_modules/@angular/core/testing/src/component_fixture.d.ts#ComponentFixture#302;</node>
-            <node x="" y="">$PROJECT_DIR$/SmartX/src/app/dashboard/dashboard.component.spec.ts#ComponentFixture#145;/home/alan/WebstormProjects/SmartX/SmartX/src/app/dashboard/dashboard.component.spec.ts#DashboardComponent#341;/home/alan/WebstormProjects/SmartX/SmartX/src/app/dashboard/dashboard.component.spec.ts#LayoutModule#9;/home/alan/WebstormProjects/SmartX/SmartX/src/app/dashboard/dashboard.component.spec.ts#MatButtonModule#214;/home/alan/WebstormProjects/SmartX/SmartX/src/app/dashboard/dashboard.component.spec.ts#MatCardModule#233;/home/alan/WebstormProjects/SmartX/SmartX/src/app/dashboard/dashboard.component.spec.ts#MatGridListModule#250;/home/alan/WebstormProjects/SmartX/SmartX/src/app/dashboard/dashboard.component.spec.ts#MatIconModule#271;/home/alan/WebstormProjects/SmartX/SmartX/src/app/dashboard/dashboard.component.spec.ts#MatMenuModule#288;/home/alan/WebstormProjects/SmartX/SmartX/src/app/dashboard/dashboard.component.spec.ts#NoopAnimationsModule#61;/home/alan/WebstormProjects/SmartX/SmartX/src/app/dashboard/dashboard.component.spec.ts#TestBed#163;/home/alan/WebstormProjects/SmartX/SmartX/src/app/dashboard/dashboard.component.spec.ts#async#138;</node>
-            <node x="" y="">$PROJECT_DIR$/SmartX/src/app/dashboard/dashboard.component.ts#DashboardComponent#259;</node>
-            <node x="" y="">$PROJECT_DIR$/SmartX/node_modules/@angular/material/grid-list/typings/grid-list-module.d.ts#MatGridListModule#0;</node>
-            <node x="" y="">$PROJECT_DIR$/SmartX/node_modules/@angular/material/icon/typings/icon-module.d.ts#MatIconModule#0;</node>
-            <node x="" y="">$PROJECT_DIR$/SmartX/node_modules/@angular/cdk/layout/typings/layout-module.d.ts#LayoutModule#0;</node>
-            <node x="" y="">$PROJECT_DIR$/SmartX/node_modules/@angular/material/menu/typings/menu-module.d.ts#MatMenuModule#0;</node>
-            <node x="" y="">$PROJECT_DIR$/SmartX/node_modules/@angular/platform-browser/animations/src/module.d.ts#NoopAnimationsModule#239;</node>
-            <node x="" y="">$PROJECT_DIR$/SmartX/node_modules/@angular/core/testing/src/test_bed.d.ts#TestBed#1089;</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.8597855227882036" x="422.0" y="189.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/graficas/graficas.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/graficas/graficas.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/graficas/graficas.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/app.routing.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/Material.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="103" selection-start-line="20" selection-start-column="103" selection-end-line="20" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/update-dialog/update-dialog.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/update-dialog/update-dialog.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="47" lean-forward="true" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/dashboard/dashboard.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#513#1272#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/dashboard/dashboard.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/dashboard/dashboard.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/bajas/bajas.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/update-category/update-category.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/update-category/update-category.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
-          <folding>
-            <element signature="e#709#767#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/bajas/bajas.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/update-product/update-product.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="64" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/InsertComponents/product-dialog-i/product-dialog-i.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-            <element signature="n#!!block;n#Productos#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/update-product/update-product.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="26" lean-forward="true" selection-start-column="1" selection-end-line="26" />
-          <folding>
-            <element signature="n#style#0;n#mat-dialog-content#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/update-product/update-product.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="20" column="1" lean-forward="true" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/InsertComponents/product-dialog-i/product-dialog-i.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/InsertComponents/product-dialog-i/product-dialog-i.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="43" column="68" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
-          <folding>
-            <element signature="n#style#0;n#mat-dialog-content#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartX/src/app/bajas/bajas.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="2" />
-          <folding>
-            <element signature="n#!!block;n#Productos#0" />
-            <element signature="n#!!block;n#Catergoria#0" />
-            <element signature="n#!!block;n#Proveedor#0" />
-            <element signature="n#!!block;n#DataDialog#0" />
-            <element signature="e#1596#1723#0" />
-            <element signature="e#1755#1958#0" />
-            <element signature="e#1973#2077#0" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
