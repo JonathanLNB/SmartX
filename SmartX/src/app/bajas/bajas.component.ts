@@ -37,6 +37,7 @@ export interface DataDialog {
   type:number,
   data:any
 }
+
 //constantes de datos  esto se cambia cuando esten los WS
 const Producto:Productos[]=[
   {idproducto:1,producto:'MI8',imagen:'',descripcion:'Telefono bonito y barato'
