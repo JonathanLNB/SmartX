@@ -57,13 +57,13 @@ export class DashboardComponent implements OnInit{
   delCategory() {
     //Metodo para borrar una categoria
     console.log("adios categoria");
-    this.router.navigate(['bajas/3'])
+    this.router.navigate(['bajas/2'])
   }
 
   delProvider() {
     //Metodo para borrar un provedor
     console.log("adios provedor");
-    this.router.navigate(['bajas/2'])
+    this.router.navigate(['bajas/3'])
   }
 
 }

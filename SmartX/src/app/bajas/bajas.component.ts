@@ -5,6 +5,11 @@ import {MatDialog,MatDialogConfig} from "@angular/material";
 import {UpdateDialogComponent} from "../update-dialog/update-dialog.component";
 import {UpdateProductComponent} from "../update-product/update-product.component";
 import {ProductDialogIComponent} from "../InsertComponents/product-dialog-i/product-dialog-i.component";
+import {ProviderDialogIComponent} from "../InsertComponents/provider-dialog-i/provider-dialog-i.component";
+import {CategoryDialogIComponent} from "../InsertComponents/category-dialog-i/category-dialog-i.component";
+import {UpdateCategoryComponent} from "../update-category/update-category.component";
+import {UpdateProviderDComponent} from "../update-provider-d/update-provider-d.component";
+
 
 //interfaces(Forma del json para cada cosa)
 export interface Productos {
@@ -112,11 +117,21 @@ export class BajasComponent implements OnInit {
      if(type==1){
        dialogRef=dialog.open(ProductDialogIComponent,{
          width:'800px'
-       })
+       });
+     }
+     if(type==2){
+       dialogRef=dialog.open(CategoryDialogIComponent,{
+         width:'600px'
+       });
+     }
+     if(type==3){
+       dialogRef=dialog.open(ProviderDialogIComponent,{
+         width:'800px'
+       });
      }
   }
 
-  onCreate(row){
+  actualiza(row){
     let dataDialog:DataDialog={
       type:this.tipo,
       data:row,
@@ -125,13 +140,19 @@ export class BajasComponent implements OnInit {
       let dialogRef=this.dialog.open(UpdateProductComponent,{
         width:'800px',
         data:dataDialog
-      })
-    }
-    else {
-      let dialogRef=this.dialog.open(UpdateDialogComponent,{
-        width:'100%',
-        height:'100%',
       });
+    }
+    if(dataDialog.type==2){
+      let dialogRef=this.dialog.open(UpdateCategoryComponent,{
+        width:'800px',
+        data:dataDialog.data
+      });
+    }
+    if(dataDialog.type==3){
+      let dialogRef=this.dialog.open(UpdateProviderDComponent,{
+        width:'800px',
+        data:dataDialog.data
+      })
     }
   }
 

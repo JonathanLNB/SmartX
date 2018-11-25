@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import {HttpClientModule} from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 //Angular material componentes
@@ -22,6 +22,8 @@ import { UpdateProductComponent } from './update-product/update-product.componen
 import { UpdateCategoryComponent } from './update-category/update-category.component';
 import { UpdateProviderDComponent } from './update-provider-d/update-provider-d.component';
 import { ProductDialogIComponent } from './InsertComponents/product-dialog-i/product-dialog-i.component';
+import { CategoryDialogIComponent } from './InsertComponents/category-dialog-i/category-dialog-i.component';
+import { ProviderDialogIComponent } from './InsertComponents/provider-dialog-i/provider-dialog-i.component';
 
 
 @NgModule({
@@ -34,7 +36,9 @@ import { ProductDialogIComponent } from './InsertComponents/product-dialog-i/pro
     UpdateProductComponent,
     UpdateCategoryComponent,
     UpdateProviderDComponent,
-    ProductDialogIComponent
+    ProductDialogIComponent,
+    CategoryDialogIComponent,
+    ProviderDialogIComponent
   ],
   imports: [
     BrowserModule,
@@ -48,14 +52,17 @@ import { ProductDialogIComponent } from './InsertComponents/product-dialog-i/pro
     LayoutModule,
     ChartsModule,
     routing,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   entryComponents:[
     UpdateDialogComponent,
     UpdateProductComponent,
     UpdateCategoryComponent,
     UpdateProviderDComponent,
-    ProductDialogIComponent
+    ProductDialogIComponent,
+    CategoryDialogIComponent,
+    ProviderDialogIComponent
   ],
   providers: [
     appRoutingProviders
