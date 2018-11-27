@@ -2,14 +2,13 @@ import { Component, OnInit,ViewChild} from '@angular/core';
 import {Router,ActivatedRoute,Params} from "@angular/router";
 import {MatPaginator, MatTableDataSource,MatSort} from "@angular/material";
 import {MatDialog,MatDialogConfig} from "@angular/material";
-import {UpdateDialogComponent} from "../update-dialog/update-dialog.component";
 import {UpdateProductComponent} from "../update-product/update-product.component";
 import {ProductDialogIComponent} from "../InsertComponents/product-dialog-i/product-dialog-i.component";
 import {ProviderDialogIComponent} from "../InsertComponents/provider-dialog-i/provider-dialog-i.component";
 import {CategoryDialogIComponent} from "../InsertComponents/category-dialog-i/category-dialog-i.component";
 import {UpdateCategoryComponent} from "../update-category/update-category.component";
 import {UpdateProviderDComponent} from "../update-provider-d/update-provider-d.component";
-
+import {ProductServiceService} from "../servicios/product-service.service";
 
 //interfaces(Forma del json para cada cosa)
 export interface Productos {
@@ -37,7 +36,10 @@ export interface DataDialog {
   type:number,
   data:any
 }
-
+export interface Product {
+  productos:any,
+  valid:number
+}
 //constantes de datos  esto se cambia cuando esten los WS
 const Producto:Productos[]=[
   {idproducto:1,producto:'MI8',imagen:'',descripcion:'Telefono bonito y barato'
@@ -65,7 +67,8 @@ const Proveedores:Proveedor[]=[
 @Component({
   selector: 'bajas',
   templateUrl: './bajas.component.html',
-  styleUrls: ['./bajas.component.css']
+  styleUrls: ['./bajas.component.css'],
+  providers:[ProductServiceService]
 })
 export class BajasComponent implements OnInit {
   //variables para mostrar las columnas
@@ -77,16 +80,18 @@ export class BajasComponent implements OnInit {
   public title:string;
   //variable que se convertira en DataTableSource
   public dataDisplayed;
+  public Prod:Productos[];
   //Sirve para hacer el paginado
   @ViewChild(MatPaginator) paginator:MatPaginator;
   constructor(private _route:ActivatedRoute,private router:Router,
-              private dialog:MatDialog) {
+              private dialog:MatDialog,private Prodserver:ProductServiceService) {
     //recibimos el parametro que viene por la url
+    console.log(this.obtenerProductos());
     this._route.params.subscribe((params:Params)=>{
       this.tipo=params.tipo;
       if(this.tipo==1){
         this.title="Productos";
-        this.dataDisplayed=new MatTableDataSource<Productos>(Producto);
+        this.obtenerProductos();
         this.displayedColumns= ['idproducto', 'producto', 'descripcion', 'precioventa','preciocompra','marca','categoria','proveedor','codigo'];
       }
       if(this.tipo==2){
@@ -105,7 +110,7 @@ export class BajasComponent implements OnInit {
 
   ngOnInit() {
     //agrega la paginacion
-    this.dataDisplayed.paginator=this.paginator;
+
   }
   back(){
     //regresa de manera mas natural al dashboard
@@ -155,6 +160,19 @@ export class BajasComponent implements OnInit {
         data:dataDialog.data
       })
     }
+  }
+
+  obtenerProductos(){
+    let Prodctos:Productos[];
+  this.Prodserver.getProductos().subscribe((data:Product)=>{
+        Prodctos=data.productos;
+      this.dataDisplayed=new MatTableDataSource<Productos>(Prodctos);
+      this.dataDisplayed.paginator=this.paginator;
+        //console.log(productos);
+      },
+      error=>{
+        console.log(error)
+      });
   }
 
 }

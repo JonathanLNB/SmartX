@@ -3,33 +3,43 @@ import { map } from 'rxjs/operators';
 import { Breakpoints, BreakpointObserver } from '@angular/cdk/layout';
 import {Router} from "@angular/router";
 import {Chart} from 'chart.js';
+import {GraficasService} from "../servicios/graficas.service";
+
 @Component({
   selector: 'dashboard',
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.css'],
+  providers:[GraficasService]
 })
 export class DashboardComponent implements OnInit{
   char=[];
-  constructor(private router:Router){
+  constructor(private router:Router, private graficas:GraficasService){
 
   }
 
   ngOnInit(){
-    this.char=new Chart('VentaA',{
+    let datos=[];
+    let labels=[];
+    datos[0]=[10,20,30,40,50,60,70];
+    datos[1]=[10,20,30,40,50,60,100];
+    labels=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+    this.char=this.graficas.graficaLinea('VentaA',datos,labels);
+    console.log(this.char);
+    /*this.char=new Chart('VentaA',{
       type: 'line',
       data: {
         labels: ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"],
         datasets: [
           {
             label: 'Ventas',
-            data: [10,20,30,40,50,60,70,80,90,100,110,120],
+            data: ,
             borderColor: '#FF4F33',
             fill:false,
             borderWidth: 1
           },
           {
             label: 'Productos',
-            data: [10,20,30,40,50,60,70,80,80,100,90,100],
+            data: ,
             borderColor: '#33FF64',
             fill:false,
             borderWidth: 1
@@ -45,7 +55,7 @@ export class DashboardComponent implements OnInit{
           }]
         }
       }
-    });
+    });*/
   }
 
   delProduct() {
