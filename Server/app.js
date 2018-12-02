@@ -34,7 +34,7 @@ app.use(function (req, res, next) {
     next();
 });
 
-app.use(authentication);
+//app.use(authentication);
 
 /*
    __  __                      _
