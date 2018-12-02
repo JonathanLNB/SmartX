@@ -6,7 +6,7 @@ function reporteVentasAnual(req, res, next) {
     cliente = new pg.Client(direccion);
     cliente.connect();
     res.setHeader('Content-Type', 'application/json');
-    query ="SELECT array_to_json(array_agg(meses)) as meses, 1 as valid from (select extract(month from v.fecha) as mes, sum((pp.precioventa-c.descuento)*vd.cantidad) as datos FROM  producto p JOIN precioproducto pp using(idproducto) JOIN ventadetalle vd using(idproducto) JOIN venta v using(idventa) JOIN cupon c using(idCupon) WHERE v.fecha>(now()-interval'1 year')  group by  1) as meses";
+    query ="SELECT array_to_json(array_agg(meses)) as meses, 1 as valid from (select (extract(month from v.fecha)::text) as mes, sum((pp.precioventa-c.descuento)*vd.cantidad) as datos FROM  producto p JOIN precioproducto pp using(idproducto) JOIN ventadetalle vd using(idproducto) JOIN venta v using(idventa) JOIN cupon c using(idCupon) WHERE v.fecha>(now()-interval'1 year')  group by  1) as meses";
     cliente.query(query).then(req => {
         const rows = req.rows;
         rows.map(row => {
@@ -72,7 +72,7 @@ function reporteProductosVAnual(req, res, next) {
     cliente = new pg.Client(direccion);
     cliente.connect();
     res.setHeader('Content-Type', 'application/json');
-    query ="SELECT array_to_json(array_agg(meses)) as meses, 1 as valid from (select extract(month from v.fecha) as mes, sum(vd.cantidad) as datos FROM  producto p JOIN precioproducto pp using(idproducto) JOIN ventadetalle vd using(idproducto) JOIN venta v using(idventa) JOIN cupon c using(idCupon) WHERE v.fecha>(now()-interval'1 year')  group by  1) as meses";
+    query ="SELECT array_to_json(array_agg(meses)) as meses, 1 as valid from (select extract(month from v.fecha)::text as mes, sum(vd.cantidad) as datos FROM  producto p JOIN precioproducto pp using(idproducto) JOIN ventadetalle vd using(idproducto) JOIN venta v using(idventa) JOIN cupon c using(idCupon) WHERE v.fecha>(now()-interval'1 year')  group by  1) as meses";
     cliente.query(query).then(req => {
         const rows = req.rows;
         rows.map(row => {
@@ -138,7 +138,7 @@ function reporteCantVAnual(req, res, next) {
     cliente = new pg.Client(direccion);
     cliente.connect();
     res.setHeader('Content-Type', 'application/json');
-    query ="SELECT array_to_json(array_agg(meses)) as meses, 1 as valid from (select extract(month from v.fecha) as mes, count(idventa) as datos FROM  producto p JOIN precioproducto pp using(idproducto) JOIN ventadetalle vd using(idproducto) JOIN venta v using(idventa) JOIN cupon c using(idCupon) WHERE v.fecha>(now()-interval'1 year')  group by  1) as meses";
+    query ="SELECT array_to_json(array_agg(meses)) as meses, 1 as valid from (select extract(month from v.fecha)::text as mes, count(idventa) as datos FROM  producto p JOIN precioproducto pp using(idproducto) JOIN ventadetalle vd using(idproducto) JOIN venta v using(idventa) JOIN cupon c using(idCupon) WHERE v.fecha>(now()-interval'1 year')  group by  1) as meses";
     cliente.query(query).then(req => {
         const rows = req.rows;
         rows.map(row => {
@@ -204,7 +204,7 @@ function reporteCantCAnual(req, res, next) {
     cliente = new pg.Client(direccion);
     cliente.connect();
     res.setHeader('Content-Type', 'application/json');
-    query ="SELECT array_to_json(array_agg(meses)) as meses, 1 as valid from (select extract(month from v.fecha) as mes, count(idusuario) as datos FROM  producto p JOIN precioproducto pp using(idproducto) JOIN ventadetalle vd using(idproducto) JOIN venta v using(idventa) JOIN cupon c using(idCupon) WHERE v.fecha>(now()-interval'1 year')  group by  1) as meses";
+    query ="SELECT array_to_json(array_agg(meses)) as meses, 1 as valid from (select extract(month from v.fecha)::text as mes, count(idusuario) as datos FROM  producto p JOIN precioproducto pp using(idproducto) JOIN ventadetalle vd using(idproducto) JOIN venta v using(idventa) JOIN cupon c using(idCupon) WHERE v.fecha>(now()-interval'1 year')  group by  1) as meses";
     cliente.query(query).then(req => {
         const rows = req.rows;
         rows.map(row => {
@@ -335,6 +335,7 @@ function totalProductosV(req, res, next) {
 function totalProductos(req, res, next) {
     cliente = new pg.Client(direccion);
     cliente.connect();
+    res.status(200);
     res.setHeader('Content-Type', 'application/json');
     query ="SELECT array_to_json(array_agg(productos)) as productos, 1 as valid FROM (SELECT idproducto, producto, codigo, imagen, descripcion, precioVenta, PrecioCompra, marca , categoria, proveedor from marca join marca_categoria using (idMarca) join categoria using (idCategoria) join proveedor using (idProveedor) join producto using (idMarca) join precioProducto using (idProducto) order by idproducto) as productos";
     cliente.query(query).then(req => {
