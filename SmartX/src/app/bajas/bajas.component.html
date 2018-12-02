@@ -17,7 +17,7 @@
           <td mat-cell *matCellDef="let element">{{element[column]}}</td>
         </ng-container>
       <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
-      <tr mat-row *matRowDef="let row; columns: columnsToDisplay;" (click)="onCreate(row)" ></tr>
+      <tr mat-row *matRowDef="let row; columns: columnsToDisplay;" (click)="actualiza(row)" ></tr>
     </table>
       <mat-paginator [pageSizeOptions]="[1,5,10,25,100]" [pageSize]="5"></mat-paginator>
       <button mat-mini-fab color="primary"  id="fab" (click)=nuevoRegistro()><mat-icon> add </mat-icon></button>

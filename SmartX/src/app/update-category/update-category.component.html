@@ -1,7 +1,12 @@
 <h2 id="titulo" align="center">Categorias</h2>
 <mat-dialog-content>
-  <mat-form-field>
-    <input matInput placeholder="Nombre">
-  </mat-form-field>
+  <div class="contenedor">
+    <mat-form-field>
+        <input matInput placeholder="Categoria" [(ngModel)]="category.categoria">
+    </mat-form-field>
+  </div>
 </mat-dialog-content>
-<mat-dialog-actions></mat-dialog-actions>
+<mat-dialog-actions align="center">
+  <button mat-raised-button color="primary" (click)="actualizar()"><mat-icon>refresh</mat-icon>Actualizar</button>
+  <button mat-raised-button color="warn" (click)="borrar()"><mat-icon>delete_forever</mat-icon>Eliminar</button>
+</mat-dialog-actions>

@@ -1,3 +1,15 @@
-<p>
-  update-provider-d works!
-</p>
+<h2 id="titulo" align="center">Proveedores</h2>
+<mat-dialog-content>
+  <div class="contenedor">
+    <mat-form-field>
+        <input matInput placeholder="Proveedor" [(ngModel)]="proveedor.proveedor">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Rfc" [(ngModel)]="proveedor.rfc">
+    </mat-form-field>
+  </div>
+</mat-dialog-content>
+<mat-dialog-actions align="center">
+  <button mat-raised-button color="primary" (click)="actualizar()"><mat-icon>refresh</mat-icon>Actualizar</button>
+  <button mat-raised-button color="warn" (click)="borrar()"><mat-icon>delete_forever</mat-icon>Eliminar</button>
+</mat-dialog-actions>
