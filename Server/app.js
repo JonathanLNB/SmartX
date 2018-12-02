@@ -1,8 +1,10 @@
 var express = require('express');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
-
+//var cookieParser = require('cookie-parser');
+//var logger = require('morgan');
+var bodyParser = require('body-parser');
 var app = express();
+var server = require('http').Server(app);
+var port = process.env.PORT || 8000;
 
 const {crearVenta, agregarALaVenta, mostrarMisVentas, mostrarDetalleMisVentas} = require('./routes/Ventas');
 const {crearInventario, agregarAlInventario} = require('./routes/Inventario');
@@ -21,20 +23,25 @@ const {
     totalProductos, totalProductosV
 } = require('./routes/Reportes');
 
-app.use(logger('dev'));
-app.use(express.json());
-app.use(express.urlencoded({extended: false}));
-app.use(cookieParser());
+//app.use(logger('dev'));
+//app.use(express.json());
+app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.json());
 
 app.use(function (req, res, next) {
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
-    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
-    res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
-    res.setHeader('Access-Control-Allow-Credentials', true);
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Methods", "GET, POST, OPTIONS, DELETE");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Access-Control-Allow-Request-Method");
+    res.header("Access-Control-Allow-Credentials", true);
+    res.header("Allow", "GET, POST, OPTIONS, PUT, DELETE");
     next();
 });
 
-app.use(authentication);
+server.listen(port, function(){
+	console.log('El Servidor inicio en el puerto '+port);
+});
+
+//app.use(authentication);
 
 /*
    __  __                      _
