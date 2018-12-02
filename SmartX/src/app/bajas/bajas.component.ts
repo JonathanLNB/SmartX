@@ -9,84 +9,37 @@ import {CategoryDialogIComponent} from "../InsertComponents/category-dialog-i/ca
 import {UpdateCategoryComponent} from "../update-category/update-category.component";
 import {UpdateProviderDComponent} from "../update-provider-d/update-provider-d.component";
 import {ProductServiceService} from "../servicios/product-service.service";
+import { CategoryServiceService} from "../servicios/category-service.service";
+import {ProviderServiceService,Providers} from "../servicios/provider-service.service";
+import {Productos,Catergoria,Proveedor,DataDialog,Product,Category} from "../interfaces/Interfaces";
 
 //interfaces(Forma del json para cada cosa)
-export interface Productos {
-  idproducto:number,
-  producto:string,
-  imagen:string,
-  descripcion:string,
-  precioventa:number,
-  preciocompra:number,
-  marca:string,
-  categoria:string,
-  proveedor:string,
-  codigo:string,
-}
-export interface Catergoria {
-  idcategoria:number,
-  categoria:string,
-}
-export interface Proveedor {
-  idproveedor:number,
-  proveedor:string,
-  rfc:string
-}
-export interface DataDialog {
-  type:number,
-  data:any
-}
-export interface Product {
-  productos:any,
-  valid:number
-}
+
 //constantes de datos  esto se cambia cuando esten los WS
-const Producto:Productos[]=[
-  {idproducto:1,producto:'MI8',imagen:'',descripcion:'Telefono bonito y barato'
-    ,precioventa:7064,preciocompra:4156,marca:"MI",categoria:"Gama Alta",proveedor:"Xiaomi",codigo:'MI8'},
-  {idproducto:1,producto:'MI9',imagen:'',descripcion:'Telefono bonito y barato'
-    ,precioventa:7064,preciocompra:4156,marca:"MI",categoria:"Gama Alta",proveedor:"Xiaomi",codigo:'MI8'},
-  {idproducto:1,producto:'MI10',imagen:'',descripcion:'Telefono bonito y barato'
-    ,precioventa:7064,preciocompra:4156,marca:"MI",categoria:"Gama Alta",proveedor:"Xiaomi",codigo:'MI8'},{idproducto:1,producto:'MI10',imagen:'',descripcion:'Telefono bonito y barato'
-    ,precioventa:7064,preciocompra:4156,marca:"MI",categoria:"Gama Alta",proveedor:"Xiaomi",codigo:'MI8'},
-
-];
-const Categorias:Catergoria[]=[
-  {idcategoria:1,categoria:'gama baja'},
-  {idcategoria:2,categoria:'gama media'},
-  {idcategoria:3,categoria:'gama alta'},
-];
-const Proveedores:Proveedor[]=[
-  {idproveedor:1,proveedor:'samsung',rfc:'gmbj'},
-  {idproveedor:2,proveedor:'samsung',rfc:'gmbj'},
-  {idproveedor:3,proveedor:'samsung',rfc:'gmbj'},
-  {idproveedor:4,proveedor:'samsung',rfc:'gmbj'},
-];
-
-
 @Component({
   selector: 'bajas',
   templateUrl: './bajas.component.html',
   styleUrls: ['./bajas.component.css'],
-  providers:[ProductServiceService]
+  providers:[ProductServiceService,
+    CategoryServiceService,
+    ProviderServiceService
+  ]
 })
 export class BajasComponent implements OnInit {
   //variables para mostrar las columnas
   displayedColumns: string[] ;
   columnsToDisplay: string[] ;
-  columnsButton:string[];
   //variables de control
   public tipo:number;
   public title:string;
   //variable que se convertira en DataTableSource
   public dataDisplayed;
-  public Prod:Productos[];
   //Sirve para hacer el paginado
   @ViewChild(MatPaginator) paginator:MatPaginator;
   constructor(private _route:ActivatedRoute,private router:Router,
-              private dialog:MatDialog,private Prodserver:ProductServiceService) {
+              private dialog:MatDialog,private Prodserver:ProductServiceService,
+              private catServer:CategoryServiceService,private provServer:ProviderServiceService) {
     //recibimos el parametro que viene por la url
-    console.log(this.obtenerProductos());
     this._route.params.subscribe((params:Params)=>{
       this.tipo=params.tipo;
       if(this.tipo==1){
@@ -96,12 +49,12 @@ export class BajasComponent implements OnInit {
       }
       if(this.tipo==2){
         this.title="Categoria";
-        this.dataDisplayed=new MatTableDataSource<Catergoria>(Categorias);
+       this.obtenerCategorias();
         this.displayedColumns= ['idcategoria', 'categoria'];
       }
       if(this.tipo==3){
         this.title="Proveedores";
-        this.dataDisplayed=new MatTableDataSource<Proveedor>(Proveedores);
+        this.obtenerProveedores();
         this.displayedColumns= ['idproveedor', 'proveedor','rfc'];
       }
       this.columnsToDisplay=this.displayedColumns.slice();
@@ -147,6 +100,10 @@ export class BajasComponent implements OnInit {
         width:'800px',
         data:dataDialog
       });
+      dialogRef.afterClosed().subscribe(result=>{
+        if(result==1)
+          this.obtenerProductos();
+      })
     }
     if(dataDialog.type==2){
       let dialogRef=this.dialog.open(UpdateCategoryComponent,{
@@ -172,6 +129,31 @@ export class BajasComponent implements OnInit {
       },
       error=>{
         console.log(error)
+      });
+  }
+  obtenerCategorias(){
+    let Categorias:Catergoria[];
+    this.catServer.getCategorias().subscribe((data:Category)=>{
+      Categorias=data.categorias;
+      this.dataDisplayed=new MatTableDataSource<Catergoria>(Categorias);
+      this.dataDisplayed.paginator=this.paginator;
+    },
+      error1 => {
+            console.log(error1);
+          alert("Algo salio mal intentelo mas tarde");
+      }
+    );
+  }
+  obtenerProveedores(){
+    let proveedores:Proveedor[];
+    this.provServer.getProviders().subscribe((data:Providers)=>{
+      proveedores=data.proveedores;
+      this.dataDisplayed=new MatTableDataSource<Proveedor>(proveedores);
+      this.dataDisplayed.paginator=this.paginator;
+    },
+      error1 => {
+            console.log(error1);
+            alert("algo salio mal intentelo mas tarde");
       });
   }
 
