@@ -22,18 +22,15 @@ export class DashboardComponent implements OnInit{
   charSemana=[];charMes=[];charAnio=[];
   constructor(private router:Router, private graficas:GraficasService){}
   ngOnInit(){
-    let datos=[];
-    let labels=[];
-    datos[0]=[10,20,30,40,50,60,70];
-    datos[1]=[10,20,30,40,50,60,100];
-    labels=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
-    this.char=this.graficas.graficaLinea('VentaA',datos,labels);
     this.reporteVentas();
     this.reporteGanancias();
     this.reporteProductos();
     setTimeout(()=>{
       console.log("datos semana \n"+this.datosSemana+"\n"+"datos mes \n"+this.datosMes+"\n datos año \n"+this.datosanio);
-    },5000)
+      this.charSemana=this.graficas.graficaLinea('VentaS',this.datosSemana,this.labelsSemana);
+      this.charMes=this.graficas.graficaLinea('VentaM',this.datosMes,this.lablesMes);
+      this.charAnio=this.graficas.graficaLinea('VentaA',this.datosanio,this.labelsAnio);
+    },8000)
   }
   delProduct() {
     //Metodo para  borrar un producto
