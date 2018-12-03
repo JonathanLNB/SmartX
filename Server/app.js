@@ -5,12 +5,13 @@ var bodyParser = require('body-parser');
 var app = express();
 var server = require('http').Server(app);
 var port = process.env.PORT || 8000;
+var cors = require('cors');
 
 const {crearVenta, agregarALaVenta, mostrarMisVentas, mostrarDetalleMisVentas} = require('./routes/Ventas');
 const {crearInventario, agregarAlInventario} = require('./routes/Inventario');
 const {agregarMarca, mostrarMarcas, marcaCategoria} = require('./routes/Marca');
 const {agregarProveedor, mostrarProveedores, eliminarProveedor} = require('./routes/Proveedor');
-const {agregarProducto, buscarProducto, eliminarProducto} = require('./routes/Productos');
+const {agregarProducto, buscarProducto, buscarProductoporID, eliminarProducto} = require('./routes/Productos');
 const {agregarCategoria, mostrarCategorias, eliminarCategoria} = require('./routes/Categorias');
 const {authentication,notFound, errorHandler} = require('./routes/Middleware');
 const {insertarUsuario, agregarDireccion, datosUsuario, mostrarMisDirecciones} = require('./routes/Usuario');
@@ -27,15 +28,19 @@ const {
 //app.use(express.json());
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
-
-app.use(function (req, res, next) {
+var corsConfig = {
+	origin: '*',
+	optionsSuccessStatus: 200
+};
+app.use(cors(corsConfig));
+/*app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Methods", "GET, POST, OPTIONS, DELETE");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Access-Control-Allow-Request-Method");
     res.header("Access-Control-Allow-Credentials", true);
     res.header("Allow", "GET, POST, OPTIONS, PUT, DELETE");
     next();
-});
+});*/
 
 server.listen(port, function(){
 	console.log('El Servidor inicio en el puerto '+port);
@@ -133,6 +138,9 @@ app.post("/api/producto", function (req, res, next) {
 });
 app.get("/api/producto/:busqueda", function (req, res, next) {
     buscarProducto(req, res, next);
+});
+app.get("/api/producto/id/:id", function(req, res, next){
+    buscarProductoporID(req, res, next);
 });
 app.delete("/api/producto/delete/:idproducto", function (req, res, next) {
    eliminarProducto(req, res, next);
