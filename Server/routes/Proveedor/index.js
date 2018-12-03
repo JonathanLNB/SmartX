@@ -41,7 +41,7 @@ function mostrarProveedores(req, res, next) {
 }
 
 
-function eliminarProveedor(){
+function eliminarProveedor(req, res, next){
     cliente = new pg.Client(direccion);
     cliente.connect();
     res.setHeader('Content-Type', 'application/json');

@@ -37,13 +37,10 @@ app.use(function (req, res, next) {
     next();
 });
 
-<<<<<<< HEAD
-=======
 server.listen(port, function(){
 	console.log('El Servidor inicio en el puerto '+port);
 });
 
->>>>>>> 4ee0da7a420a0d7f555502a25751bbe3b4cd7f39
 //app.use(authentication);
 
 /*
