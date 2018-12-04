@@ -37,10 +37,10 @@ export class UpdateProductComponent implements OnInit {
     sendP.descripcion=this.product.descripcion;
     sendP.codigo=this.product.codigo;
     sendP.imagen=this.product.imagen;
-    sendP.marca=1;
+    sendP.marca=this.product.idmarca;
     sendP.precioc=this.product.preciocompra;
     sendP.preciov=this.product.precioventa;
-
+    sendP.producto=this.product.producto;
     let dialogo=this.dialog;
     this.prod.insertProduct(sendP).subscribe((result:Pupdated)=>{
       if(result.valid==1){
@@ -54,8 +54,11 @@ export class UpdateProductComponent implements OnInit {
 
   }
   borrar(){
-
-
+    let id=this.product.idproducto;
+    this.prod.deleteProduct(id).subscribe(value => {},error1 => {
+      console.log(error1);
+    });
+    this.dialog.close(1);
   }
 
 }

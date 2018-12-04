@@ -7,13 +7,17 @@ import {Pupdated,Productos,Product,SProduct} from "../interfaces/Interfaces";
     'pwd':'b77a38ec4b8caea8569894d2e56577df'
   })
 };*/
+const httpOptions = {
+  headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+};
+
 @Injectable({
   providedIn: 'root'
 })
 export class ProductServiceService {
   url:string;
   constructor(public http:HttpClient) {
-    this.url='http://104.248.236.184:3000/api';
+    this.url='http://3.17.28.49:3000/api';
   }
 
   getProductos(){
@@ -22,7 +26,10 @@ export class ProductServiceService {
 
   }
   insertProduct(producto:SProduct){
-      return this.http.post<Pupdated>(this.url+'/producto',producto,);
+      return this.http.post<Pupdated>(this.url+'/producto',producto);
+  }
+  deleteProduct(id:number){
+       return this.http.delete(this.url+'/producto/delete/'+id);
   }
 
 }

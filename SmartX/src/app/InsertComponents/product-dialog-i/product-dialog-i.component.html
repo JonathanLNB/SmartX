@@ -9,15 +9,15 @@
     </mat-form-field>
     <!-- Seccion para los precios de venta -->
     <mat-form-field>
-      <input matInput type="number" placeholder="Precio de Venta" [(ngModel)]="product.precioventa">
+      <input matInput type="number" placeholder="Precio de Venta" [(ngModel)]="product.preciov">
     </mat-form-field>
-    <mat-slider class="barra" [max]="60000" [min]="0" [step]="50" [thumbLabel]="false" [(ngModel)]="product.precioventa" >
+    <mat-slider class="barra" [max]="60000" [min]="0" [step]="50" [thumbLabel]="false" [(ngModel)]="product.preciov" >
     </mat-slider>
     <!-- precio de compra -->
     <mat-form-field>
-      <input matInput type="number" placeholder="Precio de compra" [(ngModel)]="product.preciocompra">
+      <input matInput type="number" placeholder="Precio de compra" [(ngModel)]="product.precioc">
     </mat-form-field>
-    <mat-slider class="barra" [max]="60000" [min]="0" [step]="50" [thumbLabel]="false" [(ngModel)]="product.preciocompra" >
+    <mat-slider class="barra" [max]="60000" [min]="0" [step]="50" [thumbLabel]="false" [(ngModel)]="product.precioc" >
     </mat-slider>
   </div>
   <mat-divider></mat-divider>
@@ -27,23 +27,13 @@
   </mat-form-field>
   <mat-divider></mat-divider>
   <div class="contenedor">
-  <mat-form-field>
-    <input matInput [(ngModel)]="product.categoria" placeholder="Categoria">
-  </mat-form-field>
-  <mat-form-field>
-    <input matInput [(ngModel)]="product.proveedor" placeholder="Proveedor">
-  </mat-form-field>
     <mat-form-field>
       <input matInput [(ngModel)]="product.marca" placeholder="Marca">
     </mat-form-field>
+    <mat-form-field>
+      <input matInput [(ngModel)]="product.codigo" placeholder="codigo">
+    </mat-form-field>
   </div>
-  <mat-form-field>
-    <input matInput [(ngModel)]="product.marca" placeholder="Marca">
-  </mat-form-field>
-  <mat-form-field>
-    <input matInput [(ngModel)]="product.codigo" placeholder="codigo">
-  </mat-form-field>
-
 </mat-dialog-content>
 <mat-dialog-actions align="center">
    <span id="botones"><button mat-raised-button color="primary" (click)="send()"><mat-icon>add_shopping_cart</mat-icon>Agregar</button></span>

@@ -23,10 +23,9 @@ export class DashboardComponent implements OnInit{
   constructor(private router:Router, private graficas:GraficasService){}
   ngOnInit(){
     this.reporteVentas();
-    this.reporteGanancias();
     this.reporteProductos();
+    this.reporteGanancias();
     setTimeout(()=>{
-      console.log("datos semana \n"+this.datosSemana+"\n"+"datos mes \n"+this.datosMes+"\n datos año \n"+this.datosanio);
       this.charSemana=this.graficas.graficaLinea('VentaS',this.datosSemana,this.labelsSemana);
       this.charMes=this.graficas.graficaLinea('VentaM',this.datosMes,this.lablesMes);
       this.charAnio=this.graficas.graficaLinea('VentaA',this.datosanio,this.labelsAnio);
@@ -34,18 +33,18 @@ export class DashboardComponent implements OnInit{
   }
   delProduct() {
     //Metodo para  borrar un producto
-    console.log("adios  producto");
     this.router.navigate(['bajas/1'])
   }
   delCategory() {
     //Metodo para borrar una categoria
-    console.log("adios categoria");
     this.router.navigate(['bajas/2'])
   }
   delProvider() {
     //Metodo para borrar un provedor
-    console.log("adios provedor");
     this.router.navigate(['bajas/3'])
+  }
+  cupones(){
+    this.router.navigate(['cupones'])
   }
   reporteVentas(){
     let vSemana=[],vMensual=[],vAnual=[];
@@ -58,10 +57,10 @@ export class DashboardComponent implements OnInit{
               vSemana.push(vdata.datos);
               labelssemana.push(vdata.dia);
           });
-          console.log("datos semana \n"+vSemana+"\n"+labelssemana);
-          this.datosSemana.push(vSemana); this.labelsSemana.push(labelssemana);
+          this.datosSemana[0]=vSemana;
+          this.labelsSemana=labelssemana;
       }, error1 => {
-        console.log(error1);
+        console.log("error en carga ventas semana\n"+error1);
       });
     this.graficas.getReporteVenta('mensual').subscribe((data:ReportesMensuales)=>{
       ventas=data.mes;
@@ -69,21 +68,19 @@ export class DashboardComponent implements OnInit{
         vMensual.push(vdata.datos);
         lablesmes.push(vdata.dia);
       });
-      console.log("datos mes \n"+vMensual+"\n"+lablesmes);
-      this.datosMes.push(vMensual); this.lablesMes.push(lablesmes);
+      this.datosMes[0]=vMensual; this.lablesMes=lablesmes;
     }, error1 => {
-      console.log(error1);
+      console.log("error ventas mensuales\n"+error1);
     });
-    this.graficas.getReporteVenta('anual').subscribe((data:ReportesAnuales)=>{
+    this.graficas.getReporteVentaAnual().subscribe((data:ReportesAnuales)=>{
       ventasAnuales=data.meses;
       ventasAnuales.forEach((vdata:DatosReportesAnual)=>{
         vAnual.push(vdata.datos);
         labelsanio.push(vdata.mes);
       });
-      console.log("datos año \n"+vAnual+"\n"+labelsanio);
-      this.datosanio.push(vAnual); this.labelsAnio.push(labelsanio);
+      this.datosanio[0]=vAnual; this.labelsAnio=labelsanio;
     }, error1 => {
-      console.log(error1);
+      console.log("error ventas año\n"+error1);
     });
   }
   reporteProductos(){
@@ -95,9 +92,9 @@ export class DashboardComponent implements OnInit{
       productos.forEach((vdata:DatosReportes)=>{
         pSemana.push(vdata.datos);
       });//fin del foreach
-      this.datosSemana.push(pSemana);
+      this.datosSemana[1]=pSemana;
     },error1 => {
-      console.log(error1);
+      console.log("error productos semana\n"+error1);
     });//fin de la peticion
 
     this.graficas.getReporteProductos('mensual').subscribe((data:ReportesMensuales)=>{
@@ -107,53 +104,59 @@ export class DashboardComponent implements OnInit{
       },error1 => {
         console.log(error1);
       });//fin del for
-      this.datosMes.push(pMensual);
+      this.datosMes[1]=pMensual;
     },error1 => {
-      console.log(error1);
+      console.log("error en productos mes\n"+error1);
     });//fin de la peticion
 
-    this.graficas.getReporteProductos('anual').subscribe((data:ReportesAnuales)=>{
+    this.graficas.getReportePAnual().subscribe((data:ReportesAnuales)=>{
       productosAnuales=data.meses;
       productosAnuales.forEach((pdata:DatosReportesAnual)=>{
         pAnual.push(pdata.datos);
       });//fin del for
-      this.datosanio.push(pAnual);
+      this.datosanio[1]=pAnual;
     },error1 => {
-      console.log(error1);
+      console.log("error productos año\n"+error1);
     });
   }
   reporteGanancias(){
     let gSemana=[],gMensual=[],gAnual=[];
-    let ganancias:DatosReportes[];
+    let gananciasS:DatosReportes[];
+    let gananciasM:DatosReportes[];
     let gananciasA:DatosReportesAnual[];
     this.graficas.getReporteGanancias('semanal').subscribe((data:ReporteSemanales)=>{
-      ganancias=data.semana;
-      ganancias.forEach((gdata:DatosReportes)=>{
+      console.log('semanal');
+      console.log(data);
+      gananciasS=data.semana;
+      data.semana.forEach((gdata:DatosReportes)=>{
         gSemana.push(gdata.datos);
       });//fin del for
-      this.datosSemana.push(gSemana);
+      this.datosSemana[2]=gSemana;
     },error1 => {
-      console.log(error1);
+      console.log("error en ganancias semanal\n"+error1);
     });//fin de la peticion
 
     this.graficas.getReporteGanancias('mensual').subscribe((data:ReportesMensuales)=>{
-      ganancias=data.mes;
-      ganancias.forEach((gdata:DatosReportes)=>{
+      console.log(data);
+      gananciasM=data.mes;
+      data.mes.forEach((gdata:DatosReportes)=>{
         gMensual.push(gdata.datos);
       });
-      this.datosMes.push(gMensual);
+      this.datosMes[2]=gMensual;
     },error1 => {
-      console.log(error1);
+      console.log("error en ganancias mensual"+error1);
     });//fin de la peticion
 
-    this.graficas.getReporteGanancias('anual').subscribe((data:ReportesAnuales)=>{
+    this.graficas.getReporteGAnual().subscribe((data:ReportesAnuales)=>{
+      console.log('anual');
+      console.log(data);
       gananciasA=data.meses;
-      gananciasA.forEach((gdata:DatosReportesAnual)=>{
+      data.meses.forEach((gdata:DatosReportesAnual)=>{
         gAnual.push(gdata.datos);
       });//fin del for
-      this.datosanio.push(gAnual);
+      this.datosanio[2]=gAnual;
     },error1 => {
-      console.log(error1);
+      console.log("error en ganancas anual\n"+error1);
     });//fin de la peticion
   }
 }

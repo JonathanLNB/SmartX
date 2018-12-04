@@ -12,10 +12,6 @@ import {ProductServiceService} from "../servicios/product-service.service";
 import { CategoryServiceService} from "../servicios/category-service.service";
 import {ProviderServiceService,Providers} from "../servicios/provider-service.service";
 import {Productos,Catergoria,Proveedor,DataDialog,Product,Category} from "../interfaces/Interfaces";
-
-//interfaces(Forma del json para cada cosa)
-
-//constantes de datos  esto se cambia cuando esten los WS
 @Component({
   selector: 'bajas',
   templateUrl: './bajas.component.html',
@@ -77,16 +73,28 @@ export class BajasComponent implements OnInit {
        dialogRef=dialog.open(ProductDialogIComponent,{
          width:'800px'
        });
+       dialogRef.afterClosed().subscribe(result=>{
+         if(result==1)
+           this.obtenerProductos();
+       })
      }
      if(type==2){
        dialogRef=dialog.open(CategoryDialogIComponent,{
          width:'600px'
+       });
+       dialogRef.afterClosed().subscribe(result=>{
+         if(result==1)
+           this.obtenerCategorias();
        });
      }
      if(type==3){
        dialogRef=dialog.open(ProviderDialogIComponent,{
          width:'800px'
        });
+       dialogRef.afterClosed().subscribe(result=>{
+         if(result==1)
+           this.obtenerProveedores();
+       })
      }
   }
 
@@ -110,11 +118,19 @@ export class BajasComponent implements OnInit {
         width:'800px',
         data:dataDialog.data
       });
+      dialogRef.afterClosed().subscribe(result=>{
+        if(result==1)
+          this.obtenerCategorias();
+      })
     }
     if(dataDialog.type==3){
       let dialogRef=this.dialog.open(UpdateProviderDComponent,{
         width:'800px',
         data:dataDialog.data
+      });
+      dialogRef.afterClosed().subscribe(result=>{
+        if(result==1)
+          this.obtenerProveedores();
       })
     }
   }

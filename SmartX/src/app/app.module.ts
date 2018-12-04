@@ -25,6 +25,9 @@ import { UpdateProviderDComponent } from './update-provider-d/update-provider-d.
 import { ProductDialogIComponent } from './InsertComponents/product-dialog-i/product-dialog-i.component';
 import { CategoryDialogIComponent } from './InsertComponents/category-dialog-i/category-dialog-i.component';
 import { ProviderDialogIComponent } from './InsertComponents/provider-dialog-i/provider-dialog-i.component';
+import { CuponesComponent } from './componentes/cupones/cupones.component';
+import { CupondialogiComponent } from './InsertComponents/cupondialogi/cupondialogi.component';
+import { CupondialogUComponent } from './updateComponents/cupondialog-u/cupondialog-u.component';
 
 
 @NgModule({
@@ -39,7 +42,10 @@ import { ProviderDialogIComponent } from './InsertComponents/provider-dialog-i/p
     UpdateProviderDComponent,
     ProductDialogIComponent,
     CategoryDialogIComponent,
-    ProviderDialogIComponent
+    ProviderDialogIComponent,
+    CuponesComponent,
+    CupondialogiComponent,
+    CupondialogUComponent
   ],
   imports: [
     BrowserModule,
@@ -64,7 +70,9 @@ import { ProviderDialogIComponent } from './InsertComponents/provider-dialog-i/p
     UpdateProviderDComponent,
     ProductDialogIComponent,
     CategoryDialogIComponent,
-    ProviderDialogIComponent
+    ProviderDialogIComponent,
+    CupondialogiComponent,
+    CupondialogUComponent
   ],
   providers: [
     appRoutingProviders

@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
+import {Proveedor} from "../interfaces/Interfaces";
 
 export interface Providers {
   proveedores:any,
@@ -9,9 +10,16 @@ export interface Providers {
   providedIn: 'root'
 })
 export class ProviderServiceService {
-  constructor(public http:HttpClient) {}
+  url:string;
+  constructor(public http:HttpClient) {
+    this.url='http://3.17.28.49:3000/api';
+  }
 
   getProviders(){
-    return this.http.get<Providers>('http://104.248.236.184:3000/api/proveedores');
+    return this.http.get<Providers>(this.url+'/proveedores');
+  }
+
+  insertProvider(provider:Proveedor){
+    return this.http.post(this.url+'/proveedor',provider);
   }
 }

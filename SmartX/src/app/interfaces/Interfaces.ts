@@ -13,6 +13,9 @@ export interface Productos {
   categoria:string,
   proveedor:string,
   codigo:string,
+  idmarca:number,
+  idcategoria:number,
+  idproveedor:number
 }
 export interface Product{
   productos:any,
@@ -57,7 +60,7 @@ export interface DatosReportesAnual {
   mes:string,
   datos:number
 }
-//interfaces Reportes semanales
+//interfaces Reportes
 export interface ReporteSemanales {
   semana:any,
   valid:number
@@ -70,3 +73,21 @@ export interface ReportesAnuales {
   meses:any,
   valid:number
 }
+export interface RequestCupon {
+  cupones:any,
+  valid:1
+}
+export interface Cupon{
+  idcupon:number,
+  cupon:string,
+  descuento:number,
+  descripcion:string
+}
+export interface cuponUpdated {
+  cupon:any,
+  valid:number
+}
+export interface Delete {
+  valid:number
+}
+

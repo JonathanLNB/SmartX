@@ -1,45 +1,42 @@
 import { Component, OnInit } from '@angular/core';
 import {MatDialogRef} from "@angular/material";
-export interface Productos {
-  idproducto:number,
-  producto:string,
-  imagen:string,
-  descripcion:string,
-  precioventa:number,
-  preciocompra:number,
-  marca:string,
-  categoria:string,
-  proveedor:string,
-  codigo:string,
-}
+import {ProductServiceService} from "../../servicios/product-service.service";
+import {SProduct} from "../../interfaces/Interfaces";
+
 @Component({
   selector: 'app-product-dialog-i',
   templateUrl: './product-dialog-i.component.html',
-  styleUrls: ['./product-dialog-i.component.css']
+  styleUrls: ['./product-dialog-i.component.css'],
+  providers:[ProductServiceService]
 })
 
 export class ProductDialogIComponent implements OnInit {
-  product:Productos;
-  constructor(public dialog:MatDialogRef<ProductDialogIComponent>) {
+  product:SProduct;
+  constructor(public dialog:MatDialogRef<ProductDialogIComponent>,
+              public producto:ProductServiceService) {
   }
 
   ngOnInit() {
     this.product={
-      idproducto:0,
+      id:0,
       producto:'',
       imagen:'',
       descripcion:'',
-      precioventa:0,
-      preciocompra:0,
-      marca:'',
-      categoria:'',
-      proveedor:'',
-      codigo:'',
+      preciov:0,
+      precioc:0,
+      marca:1,
+      codigo:''
     }
   }
   send(){
     let dialog=this.dialog;
-    console.log(this.product);
-    dialog.close();
+    this.producto.insertProduct(this.product).subscribe(data=>{
+      console.log(data);
+      dialog.close(1);
+    },
+      error1 => {
+      console.log(error1);
+      });
+
   }
 }

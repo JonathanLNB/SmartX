@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import {Chart} from 'chart.js';
 import {HttpClient,HttpHeaders} from "@angular/common/http"
-import {ReporteSemanales} from "../interfaces/Interfaces";
+import {ReporteSemanales,ReportesAnuales} from "../interfaces/Interfaces";
 
 @Injectable({
   providedIn: 'root'
@@ -9,11 +9,14 @@ import {ReporteSemanales} from "../interfaces/Interfaces";
 export class GraficasService {
   private url;
   constructor(private http:HttpClient) {
-    this.url='http://104.248.236.184:3000/api';
+    this.url='http://3.17.28.49:3000/api';
   }
   graficaLinea(idCanvas:string,datos:any,labels:any){
     let char=[];
-    //anual
+    console.log("estos son los datos");
+    console.log(datos);
+    console.log("estos son las etiquetas");
+    console.log(labels);
       char=new Chart(idCanvas,{
         type: 'line',
         data: {
@@ -64,6 +67,16 @@ export class GraficasService {
   }
   getReporteGanancias(periodo:String){
     return this.http.get(this.url+'/reportes/ganancias/totales/'+periodo)
+  }
+  getReporteVentaAnual(){
+    return this.http.get<ReportesAnuales>('http://3.17.28.49:3000/api/reportes/ventas/totales/anual');
+  }
+  getReporteGAnual(){
+    return this.http.get<ReportesAnuales>('http://3.17.28.49:3000/api/reportes/ganancias/totales/anual');
+  }
+
+  getReportePAnual(){
+    return this.http.get<ReportesAnuales>('http://3.17.28.49:3000/api/reportes/productos/totales/anual');
   }
 
 

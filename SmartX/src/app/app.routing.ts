@@ -3,12 +3,15 @@ import {Routes,RouterModule} from "@angular/router";
 //componentes
 import {DashboardComponent} from "./dashboard/dashboard.component";
 import {BajasComponent} from "./bajas/bajas.component";
+import {CuponesComponent} from "./componentes/cupones/cupones.component";
 
 const appRoutes:Routes=[
   {path:"",component:DashboardComponent},
   {path:"dashboard",component:DashboardComponent},
   {path:"bajas/:tipo",component:BajasComponent},
-  {path:'**',component:DashboardComponent}
+  {path:"cupones",component:CuponesComponent},
+  {path:'**',component:DashboardComponent},
+
 ];
 
 export const appRoutingProviders:any[]=[];

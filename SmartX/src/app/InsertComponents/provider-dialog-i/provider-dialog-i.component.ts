@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {MatDialogRef} from "@angular/material";
+import {ProviderServiceService} from "../../servicios/provider-service.service";
 
 export interface proveedores {
   idproveedor:number,
@@ -9,11 +10,13 @@ export interface proveedores {
 @Component({
   selector: 'app-provider-dialog-i',
   templateUrl: './provider-dialog-i.component.html',
-  styleUrls: ['./provider-dialog-i.component.css']
+  styleUrls: ['./provider-dialog-i.component.css'],
+  providers:[ProviderServiceService]
 })
 export class ProviderDialogIComponent implements OnInit {
   protected provider:proveedores;
-  constructor(public dialog:MatDialogRef<ProviderDialogIComponent>) { }
+  constructor(public dialog:MatDialogRef<ProviderDialogIComponent>,
+              private providerService:ProviderServiceService) { }
 
   ngOnInit() {
     this.provider={
@@ -23,6 +26,13 @@ export class ProviderDialogIComponent implements OnInit {
     }
   }
   send(){
-
+      let dialog=this.dialog;
+      this.providerService.insertProvider(this.provider).subscribe(data=>{
+        dialog.close(1);
+      },error1 => {
+        console.log(error1);
+        alert("Algo salio mal intentelo mas tarde");
+        dialog.close();
+      });
   }
 }
