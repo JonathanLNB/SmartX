@@ -7,5 +7,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/smartx</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="smartx@3.17.28.49" uuid="30e8574b-8058-4e8f-bddd-a7f2a52e1006">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://3.17.28.49:5432/smartx</jdbc-url>
+    </data-source>
   </component>
 </project>
