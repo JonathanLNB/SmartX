@@ -6,7 +6,7 @@ function agregarCupon(req, res, next) {
     cliente = new pg.Client(direccion);
     cliente.connect();
     res.setHeader('Content-Type', 'application/json');
-    query ="SELECT row_to_json(consulta) FROM (Select row_to_json(cuponR) as cuponR, 1 as valid from (Select * from insertar_cupon("+req.body.id+", "+req.body.cantidad+", '"+req.body.descripcion+"')) as cuponR) as consulta;";
+    query ="SELECT row_to_json(consulta) FROM (Select row_to_json(cuponR) as cupon, 1 as valid from (Select * from insertar_cupon("+req.body.id+", "+req.body.cantidad+", '"+req.body.descripcion+"')) as cuponR) as consulta;";
     cliente.query(query).then(req => {
         const rows = req.rows;
         rows.map(row => {

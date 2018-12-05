@@ -337,7 +337,7 @@ function totalProductos(req, res, next) {
     cliente.connect();
     res.status(200);
     res.setHeader('Content-Type', 'application/json');
-    query ="SELECT array_to_json(array_agg(productos)) as productos, 1 as valid FROM (SELECT idproducto, producto, codigo, imagen, descripcion, precioVenta, PrecioCompra, marca , m.idmarca, categoria, c.idcategoria, proveedor, pr.idproveedor, id.cantidad from marca m join marca_categoria mc using (idMarca) join categoria c using (idCategoria) join proveedor pr using (idProveedor) join producto using (idMarca) join precioProducto using (idProducto) join inventariodetalle id using(idproducto) join inventario i using(idinventario) where i.fecha = (SELECT fecha from inventario order by fecha desc limit 1) order by idproducto) as productos";
+    query ="SELECT array_to_json(array_agg(productos)) as productos, 1 as valid FROM (SELECT idproducto, producto, codigo, imagen, descripcion, precioVenta, PrecioCompra, marca , m.idmarca, categoria, c.idcategoria, proveedor, pr.idproveedor from marca m join marca_categoria mc using (idMarca) join categoria c using (idCategoria) join proveedor pr using (idProveedor) join producto using (idMarca) join precioProducto using(idProducto)  order by idproducto) as productos";
     cliente.query(query).then(req => {
         const rows = req.rows;
         rows.map(row => {
