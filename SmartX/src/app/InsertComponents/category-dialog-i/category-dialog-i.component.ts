@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {MatDialogRef} from "@angular/material";
 import {CategoryServiceService} from "../../servicios/category-service.service";
+import {insertCategoria} from "../../interfaces/Interfaces";
 
 export interface Categoria{
   idcategoria:number,
@@ -14,13 +15,13 @@ export interface Categoria{
 })
 
 export class CategoryDialogIComponent implements OnInit {
-  protected category:Categoria;
+  protected category:insertCategoria;
   constructor(public dialog:MatDialogRef<CategoryDialogIComponent>,
               private categoryService:CategoryServiceService) { }
 
   ngOnInit() {
     this.category={
-      idcategoria:0,
+      id:0,
       categoria:""
     }
   }

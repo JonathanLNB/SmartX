@@ -1,0 +1,17 @@
+<h2 align="center">Cupones</h2>
+<mat-dialog-content style="height: 100%">
+  <div class="contenedor">
+    <mat-form-field>
+      <textarea matInput  placeholder="Descripcion" [(ngModel)]="cupon.descripcion" ></textarea>
+    </mat-form-field>
+    <!-- Seccion para los precios de venta -->
+    <mat-form-field>
+      <input matInput type="number" placeholder="Descuento" [(ngModel)]="cupon.cantidad">
+    </mat-form-field>
+    <mat-slider class="barra" [max]="60000" [min]="100" [step]="50" [thumbLabel]="false" [(ngModel)]="cupon.cantidad" >
+    </mat-slider>
+  </div>
+</mat-dialog-content>
+<mat-dialog-actions align="center">
+  <button mat-raised-button color="primary" (click)="send()"><mat-icon>add_shopping_cart</mat-icon>Agregar</button>
+</mat-dialog-actions>

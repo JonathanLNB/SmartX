@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {MatDialogRef} from "@angular/material";
 import {ProviderServiceService} from "../../servicios/provider-service.service";
+import {insertProvedor} from "../../interfaces/Interfaces";
 
 export interface proveedores {
   idproveedor:number,
@@ -14,13 +15,13 @@ export interface proveedores {
   providers:[ProviderServiceService]
 })
 export class ProviderDialogIComponent implements OnInit {
-  protected provider:proveedores;
+  protected provider:insertProvedor;
   constructor(public dialog:MatDialogRef<ProviderDialogIComponent>,
               private providerService:ProviderServiceService) { }
 
   ngOnInit() {
     this.provider={
-      idproveedor:0,
+      id:0,
       proveedor:"",
       rfc:""
     }

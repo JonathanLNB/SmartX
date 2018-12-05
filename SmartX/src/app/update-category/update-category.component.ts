@@ -1,7 +1,7 @@
 import {Component, Inject, OnInit} from '@angular/core';
 import {MatDialogRef} from "@angular/material";
 import {MAT_DIALOG_DATA} from "@angular/material";
-import {Catergoria} from "../interfaces/Interfaces";
+import {Catergoria,insertCategoria} from "../interfaces/Interfaces";
 import {CategoryServiceService} from "../servicios/category-service.service";
 
 @Component({
@@ -21,8 +21,12 @@ export class UpdateCategoryComponent implements OnInit {
   }
 
   actualizar(){
+    let insertCategoria:insertCategoria={
+      id:this.category.idcategoria,
+      categoria:this.category.categoria
+    };
     let dialogo=this.dialog;
-    this.categoService.insertCategory(this.category).subscribe(data=>{
+    this.categoService.insertCategory(insertCategoria).subscribe(data=>{
       dialogo.close(1);
     },error1 => {
       console.log(error1);

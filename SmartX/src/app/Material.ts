@@ -10,15 +10,16 @@ import {MatDialogModule} from "@angular/material";
 import {MatFormFieldModule} from "@angular/material";
 import {MatInputModule} from "@angular/material";
 import {MatSliderModule} from "@angular/material";
+import {MatSelectModule} from "@angular/material";
 
 @NgModule({
   imports: [
     MatButtonModule, MatCheckboxModule,MatToolbarModule,MatToolbarModule,MatTableModule,MatPaginatorModule,
-    MatSidenavModule,MatDividerModule,MatDialogModule,MatFormFieldModule,MatInputModule,MatSliderModule
+    MatSidenavModule,MatDividerModule,MatDialogModule,MatFormFieldModule,MatInputModule,MatSliderModule,MatSelectModule
   ],
   exports: [
     MatButtonModule, MatCheckboxModule,MatToolbarModule,MatToolbarModule,MatTableModule,MatPaginatorModule,
-    MatSidenavModule,MatDividerModule,MatDialogModule,MatFormFieldModule,MatInputModule,MatSliderModule
+    MatSidenavModule,MatDividerModule,MatDialogModule,MatFormFieldModule,MatInputModule,MatSliderModule,MatSelectModule
   ],
 })
 export class Material { }

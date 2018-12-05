@@ -4,7 +4,7 @@ import {Routes,RouterModule} from "@angular/router";
 import {DashboardComponent} from "./dashboard/dashboard.component";
 import {BajasComponent} from "./bajas/bajas.component";
 import {CuponesComponent} from "./componentes/cupones/cupones.component";
-
+import {LoginComponent} from "./Autenticacion/login/login.component"
 const appRoutes:Routes=[
   {path:"",component:DashboardComponent},
   {path:"dashboard",component:DashboardComponent},

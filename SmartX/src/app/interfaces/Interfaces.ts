@@ -90,4 +90,27 @@ export interface cuponUpdated {
 export interface Delete {
   valid:number
 }
+export interface RequestMarca {
+  marcas:any,
+  valid:number
+}
+export interface Marca {
+  idmarca:number,
+  marca:string,
+  idproveedor:number
+}
+export interface CuponUp {
+  id:number,
+  cantidad:number,
+  descripcion:string
+}
+export interface insertProvedor {
+  id:number,
+  proveedor:string,
+  rfc:string
+}
+export interface insertCategoria {
+  id:number,
+  categoria:string
+}
 

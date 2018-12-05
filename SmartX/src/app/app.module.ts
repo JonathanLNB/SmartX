@@ -13,7 +13,11 @@ import { MatGridListModule, MatCardModule, MatMenuModule, MatIconModule, MatButt
 import { LayoutModule } from '@angular/cdk/layout';
 import { GraficasComponent } from './graficas/graficas.component';
 import {FormsModule} from "@angular/forms";
-
+//firebase
+import { AngularFireModule } from 'angularfire2';
+import { AngularFirestoreModule } from 'angularfire2/firestore';
+import { AngularFireAuthModule } from 'angularfire2/auth';
+import { environment } from '../environments/environment';
 
 //rutas
 import {routing,appRoutingProviders} from "./app.routing";
@@ -28,6 +32,8 @@ import { ProviderDialogIComponent } from './InsertComponents/provider-dialog-i/p
 import { CuponesComponent } from './componentes/cupones/cupones.component';
 import { CupondialogiComponent } from './InsertComponents/cupondialogi/cupondialogi.component';
 import { CupondialogUComponent } from './updateComponents/cupondialog-u/cupondialog-u.component';
+import { LoginComponent } from './Autenticacion/login/login.component';
+import { RegisterComponent } from './Autenticacion/register/register.component';
 
 
 @NgModule({
@@ -45,7 +51,9 @@ import { CupondialogUComponent } from './updateComponents/cupondialog-u/cupondia
     ProviderDialogIComponent,
     CuponesComponent,
     CupondialogiComponent,
-    CupondialogUComponent
+    CupondialogUComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
@@ -61,7 +69,10 @@ import { CupondialogUComponent } from './updateComponents/cupondialog-u/cupondia
     routing,
     FormsModule,
     HttpModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule, // imports firebase/firestore, only needed for database features
+    AngularFireAuthModule, // imports firebase/auth, only needed for auth features
   ],
   entryComponents:[
     UpdateDialogComponent,

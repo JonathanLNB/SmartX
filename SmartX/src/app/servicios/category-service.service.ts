@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import {HttpClient,HttpHeaders} from "@angular/common/http";
-import{Category,Catergoria} from "../interfaces/Interfaces";
+import{Category,Catergoria,insertCategoria} from "../interfaces/Interfaces";
 
 @Injectable({
   providedIn: 'root'
@@ -15,7 +15,7 @@ export class CategoryServiceService {
     return this.http.get<Category>(this.url+'/categorias');
   }
 
-  insertCategory(categoria:Catergoria){
+  insertCategory(categoria:insertCategoria){
     return this.http.post(this.url+'/categoria',categoria);
   }
 }

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {MatDialogRef} from "@angular/material";
 import {ProductServiceService} from "../../servicios/product-service.service";
-import {SProduct} from "../../interfaces/Interfaces";
+import {SProduct,RequestMarca,Marca} from "../../interfaces/Interfaces";
 
 @Component({
   selector: 'app-product-dialog-i',
@@ -12,8 +12,10 @@ import {SProduct} from "../../interfaces/Interfaces";
 
 export class ProductDialogIComponent implements OnInit {
   product:SProduct;
+  marcas:Marca[]=[];
   constructor(public dialog:MatDialogRef<ProductDialogIComponent>,
               public producto:ProductServiceService) {
+    this.getMarcas();
   }
 
   ngOnInit() {
@@ -38,5 +40,11 @@ export class ProductDialogIComponent implements OnInit {
       console.log(error1);
       });
 
+  }
+  getMarcas(){
+    this.producto.getMarcas().subscribe((data:RequestMarca)=>{
+      this.marcas=data.marcas;
+
+    })
   }
 }

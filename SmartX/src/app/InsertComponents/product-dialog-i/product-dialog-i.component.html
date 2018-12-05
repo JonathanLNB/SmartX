@@ -28,7 +28,9 @@
   <mat-divider></mat-divider>
   <div class="contenedor">
     <mat-form-field>
-      <input matInput [(ngModel)]="product.marca" placeholder="Marca">
+      <mat-select [(value)]="product.marca" *ngIf="marcas!=[]">
+        <mat-option *ngFor="let mar of marcas" value={{mar.idmarca}}>{{mar.marca}}</mat-option>
+      </mat-select>
     </mat-form-field>
     <mat-form-field>
       <input matInput [(ngModel)]="product.codigo" placeholder="codigo">
